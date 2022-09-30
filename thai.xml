@@ -1,0 +1,3351 @@
+<?xml version="1.0"?>
+<ew-language version="19.0.0" id="th-TH" name="Thai (TH)" desc="Thai (TH)" author="Z-Axis Co.,Ltd." date="2021/10/28">
+  <!--
+    IMPORTANT NOTES:
+    1. Language ID must be RFC 4646 language tags (which use hyphen, not underscore), e.g. en-US, fr-CA, fr-FR,
+    2. Requires PHP Internationalization extension (Intl), see https://www.php.net/manual/en/book.intl.php,
+    3. Locale files are NOT used unless you save customized settings of a locale in the project.
+-->
+  <global>
+    <phrase id="2fadisabled" value="Two factor authentication disabled" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="2faenabled" value="Two factor authentication enabled" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="2faresetfailed" value="Failed to disable two factor authentication" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="2faverificationfailed" value="Two factor authentication verification failed" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="accept" value="ยอมรับ">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="actiondeleted" value="ลบเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="actioninserted" value="เพิ่มเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="actioninsertedgridadd" value="เพิ่มเรียบร้อยแล้ว (ในรูปแบบตาราง)">
+    </phrase>
+    <phrase id="actionupdated" value="แก้ไขเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="actionupdatedgridedit" value="แก้ไขเรียบร้อยแล้ว (ในรูปแบบตาราง)">
+    </phrase>
+    <phrase id="actionupdatedmultiupdate" value="แก้ไขเรียบร้อยแล้ว (แบบหลายข้อมูล)">
+    </phrase>
+    <phrase id="activateaccount" value="ยืนยันการลงทะเบียนเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="activatefailed" value="ยืนยันการลงทะเบียนไม่สำเร็จ">
+    </phrase>
+    <phrase id="add" value="เพิ่ม">
+    </phrase>
+    <phrase id="addblankrow" value="เพิ่มข้อมูลเปล่า" class="fas fa-plus ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="addbtn" value="เพิ่ม" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="addlink" value="เพิ่ม" class="fas fa-plus ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="addmasterdetaillink" value="Master/Detail เพิ่ม" class="icon-md-add ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="addsuccess" value="เพิ่มเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="advancedsearch" value="ค้นหาขั้นสูง">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="advancedsearchbtn" value="ค้นหาขั้นสูง" class="icon-advanced-search ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="aggregatecolon" value=": ">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="aggregateequal" value="=">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="allrecords" value="ทั้งหมด">
+    </phrase>
+    <phrase id="allword" value="ทุกคำ">
+    </phrase>
+    <phrase id="anyword" value="คำใดก็ได้">
+    </phrase>
+    <phrase id="apititle" value="REST API">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="audittrailautologin" value="ล็อกอินอัตโนมัติ">
+    </phrase>
+    <phrase id="audittrailfailedattempt" value="ไมผ่านเป็นจำนวน:%n">
+    </phrase>
+    <phrase id="audittrailuserloggedin" value="ผู้ใช้อยู่ในระบบแล้ว">
+    </phrase>
+    <phrase id="audittrailpasswordexpired" value="รหัสผ่านหมดอายุ">
+    </phrase>
+    <phrase id="audittraillogin" value="ล็อกอิน">
+    </phrase>
+    <phrase id="audittraillogout" value="ล็อกเอ้าท์">
+    </phrase>
+    <phrase id="autologinfailed" value="ไม่สามารถล็อกอินอัตโนมัติได้">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="average" value="ค่าเฉลี่ย">
+    </phrase>
+    <phrase id="backtolist" value="กลับไปหน้ารายการ">
+    </phrase>
+    <phrase id="backtologin" value="กลับไปหน้าล็อกอิน">
+    </phrase>
+    <phrase id="backtomasterrecordpage" value="กลับไปหน้าหลัก">
+    </phrase>
+    <phrase id="backupcodes" value="Backup codes (2FA)" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="backupcodesmsg" value="Save your backup codes somewhere safe but accessible. You can only use each backup code once." client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="batchdeletebegin" value="*** เริ่มลบแบบแบช ***">
+    </phrase>
+    <phrase id="batchdeleterollback" value="*** ย้อนการลบแบบแบช ***">
+    </phrase>
+    <phrase id="batchdeletesuccess" value="*** ลบแบบแบชสำเร็จ ***">
+    </phrase>
+    <phrase id="batchinsertbegin" value="*** เริ่มเพิ่มแบบแบช ***">
+    </phrase>
+    <phrase id="batchinsertrollback" value="*** ย้อนการเพิ่มแบบแบช ***">
+    </phrase>
+    <phrase id="batchinsertsuccess" value="*** เพิ่มแบบแบชสำเร็จ ***">
+    </phrase>
+    <phrase id="batchupdatebegin" value="*** เริ่มแก้ไขแบบแบช ***">
+    </phrase>
+    <phrase id="batchupdaterollback" value="*** ย้อนการแก้ไขแบบแบช ***">
+    </phrase>
+    <phrase id="batchupdatesuccess" value="*** แก้ไขแบบแบชสำเร็จ ***">
+    </phrase>
+    <phrase id="blankoptiontext" value="&amp;nbsp;">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="booleanno" value="No">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="booleanyes" value="Yes">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="buttonactions" value="ปุ่ม" class="fas fa-bars ew-icon">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="buttonaddedit" value="ปุ่มเพิ่มและแก้ไข" class="icon-addedit ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="buttondetails" value="ปุ่มรายละเอียด" class="icon-master-detail ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="buttonexport" value="ปุ่มส่งออก" class="fas fa-download ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="buttonimport" value="นำเข้า" class="fas fa-upload ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="buttonlistoptions" value="ตัวเลือก" class="fas fa-bars ew-icon">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="buttonlistoptionscard" value="Options" class="fas fa-ellipsis-v ew-icon">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="buttonsearch" value="ค้นหา" class="icon-search ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="cancelbtn" value="ยกเลิก" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="cancellink" value="ยกเลิก" class="fas fa-times ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="changepassword" value="เปลี่ยนรหัสผ่าน" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="changepasswordmessage" value="เปลี่ยนรหัสผ่าน">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="changepasswordpage" value="หน้าเปลี่ยนรหัสผ่าน">
+    </phrase>
+    <phrase id="changepasswordbtn" value="เปลี่ยนรหัสผ่าน">
+    </phrase>
+    <phrase id="chartexporterrmsg1" value="ไม่สามารถดึงภาพ %t จาก %e ได้">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="chartexporterrmsg2" value="กรุณาตรวจสอบชื่อไฟล์">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="chartexporterrmsg3" value="กรุณาตรวจสอบโฟลเดอร์ที่จะอัพโหลด">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="chartexporterrmsg4" value="กรุณาตรวจสอบสิทธิ์การเขียนโฟลเดอร์ที่จะอัพโหลด">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="chartorder" value="เรียงลำดับโดย">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="chartorderxasc" value="ป้ายกำกับจากน้อยไปมาก">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="chartorderxdesc" value="ป้ายกำกับจากมากไปน้อย">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="chartorderyasc" value="ค่าจากน้อยไปมาก">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="chartorderydesc" value="ค่าจากมากไปน้อย">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="choosefilebtn" value="เลือกไฟล์...">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="choosefile" value="เลือกไฟล์">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="choosefiles" value="เลือกไฟล์">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="clear" value="Clear">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="clickrecaptcha" value="กรุณากดปุ่ม Captcha" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="clicktodrilldown" value="กดดูเพิ่มเติม">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="closeaccountbtn" value="ลบข้อมูลและปิดบัญชี">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="closebtn" value="ปิด" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="columns" value="Columns" class="fas fa-columns ew-icon">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="confirm" value="ยืนยัน">
+    </phrase>
+    <phrase id="confirmbtn" value="ยืนยัน" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="confirmcancel" value="ต้องการยกเลิก?" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="confirmpassword" value="ยืนยันรหัสผ่าน" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="conflictcancellink" value="ยกเลิก">
+    </phrase>
+    <phrase id="cookieconsenttitle" value="Privacy Policy &amp; Terms of Use" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="cookieconsentsummary" value="นโยบายคุ้มครองความเป็นส่วนตัว และ เงื่อนไขการใช้บริการ" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="copy" value="คัดลอก">
+    </phrase>
+    <phrase id="copylink" value="คัดลอก" class="icon-copy ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="copytoclipboard" value="Copy to clipboard" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="copiedtoclipboard" value="Copied to clipboard" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="count" value="จำนวน">
+    </phrase>
+    <phrase id="countselected" value="เลือก %s" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="ctbsumhead" value="ภาพรวม">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="currentfilters" value="ตัวกรองที่ใช้อยู่:">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="currentpassword" value="รหัสผ่านปัจจุบัน:" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="customactioncompleted" value="%s' สำเร็จ">
+    </phrase>
+    <phrase id="customactioncancelled" value="%s' ยกเลิก">
+    </phrase>
+    <phrase id="customactionfailed" value="%s' ไม่สำเร็จ">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="customactionnotallowed" value="%s' ไม่ได้รับอนุญาต">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="customview" value="มุมมองเฉพาะ">
+    </phrase>
+    <phrase id="danger" value="ผิดพลาด" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="debug" value="Debug">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="delete" value="ลบ">
+    </phrase>
+    <phrase id="deletebtn" value="ลบ">
+    </phrase>
+    <phrase id="deletecancelled" value="ยกเลิกการลบเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="deleteconfirmmsg" value="ต้องการลบใช่หรือไม่?" client="1">
+    </phrase>
+    <phrase id="deletefilter" value="ลบที่กรอง">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="deletefilterconfirm" value="ลบที่กรอง %s?" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="deletelink" value="ลบ" class="fas fa-trash ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="deleteselectedlink" value="ลบรายการที่เลือก" class="fas fa-trash ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="deletesomerecordsfailed" value="Delete failed for records with keys: %k">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="deletesuccess" value="ลบเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="detaillink" value="">
+    </phrase>
+    <phrase id="detailcount" value="&lt;span class='label label-info ewDetailCount%c'&gt;%c&lt;/span&gt;">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="details" value="Details" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="disable2fa" value="Disable two factor authentication">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="disable2famsg" value="Are you sure you want to disable two factor authentication?" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="disablenotifications" value="Disable notifications" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="disablenotificationsmsg" value="Are you sure you want to disable notifications?" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="downloadbtn" value="ดาวน์โหลด">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="drilldownallrecords" value="รายการทั้งหมด">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="drilldownfilters" value="ตัวกรองละเอียด:">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="dupindex" value="ข้อมูลซ้ำซ้อน '%v' สำหรับข้อมูล '%f'">
+    </phrase>
+    <phrase id="dupkey" value="ข้อมูลคีย์ซ้ำซ้อน: '%f'">
+    </phrase>
+    <phrase id="edit" value="แก้ไข">
+    </phrase>
+    <phrase id="editbtn" value="แก้ไข" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="editlink" value="แก้ไข" class="icon-edit ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="email" value="อีเมล" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="emailformsender" value="จาก">
+    </phrase>
+    <phrase id="emailformrecipient" value="ส่งไปยัง">
+    </phrase>
+    <phrase id="emailformcc" value="CC">
+    </phrase>
+    <phrase id="emailformbcc" value="BCC">
+    </phrase>
+    <phrase id="emailformsubject" value="หัวข้อ">
+    </phrase>
+    <phrase id="emailformmessage" value="ข้อความ">
+    </phrase>
+    <phrase id="emailformcontenttype" value="ส่งในนาม">
+    </phrase>
+    <phrase id="emailformcontenttypeurl" value="URL">
+    </phrase>
+    <phrase id="emailformcontenttypehtml" value="HTML">
+    </phrase>
+    <phrase id="emptylabel" value="(ไม่มีชื่อ)">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="enable2fa" value="Enable two factor authentication">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="enablenotifications" value="Enable notifications" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="enterfiltername" value="ใส่ ชื่อตัวกรอง" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="enternewpassword" value="กรุณากรอก รหัสผ่านใหม่" client="1">
+    </phrase>
+    <phrase id="enteroldpassword" value="กรุณากรอก รหัสผ่านเดิม" client="1">
+    </phrase>
+    <phrase id="enterpassword" value="กรุณาใส่รหัสผ่าน" client="1">
+    </phrase>
+    <phrase id="enterrequiredfield" value="กรุณากรอกข้อมูลที่ - %s" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="entersearchcriteria" value="กรุณากรอกเงื่อนไขการค้นหา">
+    </phrase>
+    <phrase id="entersecuritycode" value="Please enter security code from the Google Authenticator (or backup code)" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="enterusername" value="กรุณากรอกชื่อผู้ใช้" client="1">
+    </phrase>
+    <phrase id="entervalidatecode" value="ใส่รหัสตรวจสอบที่แสดง" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="enterpropersenderemail" value="อีเมลผู้ส่งเกินจำนวนที่กำหนด" client="1">
+    </phrase>
+    <phrase id="enterproperrecipientemail" value="อีเมลผู้รับเกินจำนวนที่กำหนด หรือมีอีเมลบางอันผิดพลาด" client="1">
+    </phrase>
+    <phrase id="enterproperccemail" value="อีเมล cc เกินจำนวนที่กำหนด หรือมีอีเมลบางอันผิดพลาด" client="1">
+    </phrase>
+    <phrase id="enterproperbccemail" value="อีเมล bcc เกินจำนวนที่กำหนด หรือมีอีเมลบางอันผิดพลาด" client="1">
+    </phrase>
+    <phrase id="entersubject" value="กรุณากรอกหัวข้อของอีเมล" client="1">
+    </phrase>
+    <phrase id="entervalue" value="กรุณาใส่ค่า" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="entervalue2" value="กรุณาใส่ค่าทั้งสอง" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="error" value="ข้อผิดพลาด">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="exactphrase" value="วลีที่แน่นอน">
+    </phrase>
+    <phrase id="exceedmaxretry" value="ระบบถูกล๊อค เนื่องจากพยายามล็อกอินมากเกินไป กรุณาลองอีกครั้งในอีก %t นาที">
+    </phrase>
+    <phrase id="exceedmaxemailexport" value="จำนวนอีเมลที่ส่งออกมากเกินไป กรุณาลองอีกครั้ง">
+    </phrase>
+    <phrase id="exportchart" value="ส่งออกแผนภูมิ: " client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="exportchartdata" value="ส่งออกข้อมูลแผนภูมิ" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="exportcharterror" value="การส่งออกผิดพลาด: " client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="exportclassnotfound" value="ไม่พบสิ่งที่จะส่งออก">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="exporting" value="กำลังส่งออก..." client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="exportingchart" value="กำลังส่งออกแผนภูมิ (%c of %t), รอซักครู่..." client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="exporttocsv" value="ส่งออกเป็น CS" class="icon-csv ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="exporttocsvtext" value="ส่งออกเป็น CSV เฉพาะตัวหนังสือ">
+    </phrase>
+    <phrase id="exporttoemail" value="อีเมล" class="icon-email ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="exporttoemailtext" value="อีเมลเฉพาะตัวหนังสือ" client="1">
+    </phrase>
+    <phrase id="exporttoexcel" value="ส่งออกเป็น Excel" class="icon-excel ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="exporttoexceltext" value="ส่งออกเป็น Excel เฉพาะตัวหนังสือ">
+    </phrase>
+    <phrase id="exporttohtml" value="ส่งออกเป็นเว็บเพจ" class="icon-html ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="exporttohtmltext" value="ส่งออกเป็นเว็บเพจเฉพาะตัวหนังสือ">
+    </phrase>
+    <phrase id="exporttopdf" value="Export to PDF" class="icon-pdf ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="exporttopdftext" value="PDF">
+    </phrase>
+    <phrase id="exporttoprinttext" value="Printer Friendly">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="exporttoword" value="ส่งออกเป็น Word" class="icon-word ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="exporttowordtext" value="ส่งออกเป็น Word เฉพาะตัวหนังสือ">
+    </phrase>
+    <phrase id="exporttoxml" value="ส่งออกเป็น XML" class="icon-xml ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="exporttoxmltext" value="ส่งออกเป็น XML เฉพาะตัวหนังสือ">
+    </phrase>
+    <phrase id="failedtoexport" value="การส่งออกผิดพลาด" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="failedtosendmail" value="การส่งอีเมลผิดพลาด">
+    </phrase>
+    <phrase id="fieldname" value="ชื่อข้อมูล">
+    </phrase>
+    <phrase id="fieldrequiredindicator" class="fas fa-asterisk ew-required" value="">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="filenotfound" value="ไม่พบไฟล์">
+    </phrase>
+    <phrase id="filter" value="กรอง" class="fas fa-filter">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="filterallrecords" value="All records" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="filtercancel" value="Cancel" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="filtername" value="กรองชื่อ" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="filternovalue" value="No value selected" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="filterok" value="OK" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="filters" value="ตัวกรอง" class="fas fa-filter ew-icon">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="resetpasswordresponse" value="หากอีเมลถูกต้อง คุณจะได้รับคำแนะนำในการตั้งรหัสผ่านใหม่">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="resetpassword" value="ตั้งรหัสผ่านใหม่" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="generatepassword" value="สร้างรหัสผ่าน" class="fas fa-bolt ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="getnewcodes" value="Get new codes" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="goback" value="ย้อนกลับ">
+    </phrase>
+    <phrase id="gridaddcancelled" value="ยกเลิกการเพิ่ม">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="gridaddlink" value="เพิ่มแบบตาราง" class="icon-grid-add ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="gridcancellink" value="ยกเลิก" class="fas fa-times ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="grideditcancelled" value="ยกเลิการแก้ไข">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="grideditlink" value="แก้ไขแบบตาราง" class="icon-grid-edit ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="gridinsertlink" value="เพิ่ม" class="fas fa-check ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="gridsavelink" value="จัดเก็บ" class="fas fa-check ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="group" value="กลุ่ม">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="groupsperpage" value="จำนวนกลุ่มต่อหน้า">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="highlight" value="ซ่อนการเน้นข้อมความ">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="highlightbtn" value="เน้นข้อความ" class="icon-highlight ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="homepage" value="หน้าแรก" class="fas fa-home ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="import" value="นำเข้า" class="fas fa-upload ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importbtn" value="นำเข้า">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageerror1" value="นำเข้าแล้ว %c จากทั้งหมด %t รายการ จาก %f (สำเร็จ: %s, ล้มเหลว: %e)" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageerror2" value=", ผิดพลาด: %e" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageerror3" value="รายการ %i: %d" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageerror4" value="ล๊อคไฟล์: %l" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfileextension" value="นามสกุลไฟล์ไม่ถูกต้อง '%e'">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfieldname" value="ชื่อฟิลด์ไม่ถูกต้อง: %f">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfieldvalue" value="ค่าในฟิลด์ไม่ถูกต้อง (ฟิลด์ %f): %v">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessagemore" value="(มีอีก %s)" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessagenoheaderrow" value="ไม่มีหัวตารางในการนำเข้า">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageprogress" value="กำลังนำเข้า %c จากทั้งหมด %t รายการ จาก %f..." client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageservererror" value="พบข้อผิดพลาดที่เซิร์ฟเวอร์ %s: %t" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessagesuccess" value="นำเข้าสำเร็จแล้ว %c จากทั้งหมด %t รายการ จาก %f" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageuploaderror" value="เกิดข้อผิดพลาดในการอัพโหลด %f: %s" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageuploadcomplete" value="อัพโหลดเรียบร้อยแล้ว" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageuploadprogress" value="กำลังอัพโหลด...(p%)" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessagepleaseselect" value="กรุณาเลือกไฟล์" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importmessageincorrectfiletype" value="ประเภทไฟล์ไม่ถูกต้อง" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="importtext" value="นำเข้า" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="incorrectcreditcard" value="หมายเลขบัตรเครดิตไม่ถูกต้อง" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="incorrectdate" value="รูปแบบวันที่ผิด (%s)" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="incorrectemail" value="อีเมลไม่ถูกต้อง" client="1">
+    </phrase>
+    <phrase id="incorrectfield" value="ข้อมูลไม่ถูกต้อง" client="1">
+    </phrase>
+    <phrase id="incorrectfloat" value="รูปแบบทศนิยมไม่ถูกต้อง" client="1">
+    </phrase>
+    <phrase id="incorrectguid" value="GUID ไม่ถูกต้อง" client="1">
+    </phrase>
+    <phrase id="incorrectinteger" value="ตัวเลขไม่ถูกต้อง" client="1">
+    </phrase>
+    <phrase id="incorrectphone" value="หมายเลขโทรศัพท์ไม่ถูกต้อง" client="1">
+    </phrase>
+    <phrase id="incorrectrange" value="ตัวเลขต้องอยู่ระหว่วาง %1 และ %2" client="1">
+    </phrase>
+    <phrase id="incorrectregexp" value="เลขต้องอยู่ระหว่าง" client="1">
+    </phrase>
+    <phrase id="incorrectsecuritycode" value="Incorrect security code">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="incorrectssn" value="หมายเลขประกันสังคมไม่ถูกต้อง" client="1">
+    </phrase>
+    <phrase id="incorrecttime" value="รูปแบบเวลาไม่ถูกต้อง (hh%smm%sss)" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="incorrecturl" value="Invalid URL" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="incorrectvalidationcode" value="โค้ดไม่ถูกต้อง กรุณาทดลองใหม่" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="incorrectzip" value="รหัสไปรษณีย์ไม่ถูกต้อง" client="1">
+    </phrase>
+    <phrase id="info" value="ข้อมูล" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="inlineaddlink" value="เพิ่ม" class="icon-inline-add ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="inlinecopylink" value="คัดลอกด่วน" class="icon-inline-copy ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="inlineeditlink" value="แก้ไข" class="icon-inline-edit ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="insertcancelled" value="ยกเลิกการเพิ่มเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="insertfailed" value="การเพิ่มผิดพลาด" client="1">
+    </phrase>
+    <phrase id="insertlink" value="เพิ่ม" class="fas fa-check ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="insertsuccess" value="เพิ่มเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="invaliddate" value="วันที่ไม่ถูกต้อง" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="invalidkeyvalue" value="คีย์ไม่ถูกต้อง">
+    </phrase>
+    <phrase id="invalidrecord" value="ข้อมูลผิดพลาด คีย์ว่างเปล่า" client="1">
+    </phrase>
+    <phrase id="invalidpostrequest" value="ข้อมูลที่ส่งมาไม่ถูกต้อง (Invalide Post Request)">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="invalidparameter" value="ข้อมูลผิดพลาด">
+    </phrase>
+    <phrase id="invalidpassword" value="รหัสผ่านผิดพลาด">
+    </phrase>
+    <phrase id="invalidpasswordchars" value="รหัสผ่านต้องไม่มีตัว &amp;, &lt;, &gt;, &quot;, '" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="invalidnewpassword" value="รหัสผ่านใหม่ผิดพลาด">
+    </phrase>
+    <phrase id="invaliduidpwd" value="ชื่อผู้ใช้หรือรหัสผ่านผิดพลาด">
+    </phrase>
+    <phrase id="invalidusernamechars" value="ชื่อผู้ใช้ต้องไม่มีตัว &amp;, &lt;, &gt;, &quot;, '" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="language" value="ภาษา">
+    </phrase>
+    <phrase id="learnmore" value="เพิ่มเติม">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="lightboxtitle" value=" " client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="lightboxcurrent" value="รูปภาพ {current} จากทั้งหมด {total}" client="1">
+    </phrase>
+    <!-- Note: DO NOT translate "{current}" and "{total}" -->
+    <!-- v11 -->
+    <phrase id="lightboxprevious" value="ก่อนหน้า" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="lightboxnext" value="ถัดไป" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="lightboxclose" value="ปิด" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="lightboxxhrerror" value="ไม่สามารถโหลดข้อมูลได้" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="lightboximgerror" value="ไม่สามารถอัพโหลดได้" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="list" value="">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="listactionbutton" value="กำลังดึงข้อมูล" class="fas fa-ellipsis-v">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="loading" value="กำลังโหลด..." client="1">
+    </phrase>
+    <phrase id="login" value="ล็อกอิน" class="fas fa-sign-in-alt ew-icon" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="logincancelled" value="ยกเลิกการล็อกอินระบบ">
+    </phrase>
+    <phrase id="loginfacebook" value="ล็อกอินด้วย Facebook">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="loginfailed" value="ล็อกอินผิดพลาด %p ครั้ง">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="logingoogle" value="ล็อกอินด้วย Google">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="loginmsg" value="กรุณาเข้าสู่ระบบ">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="loginoptions" value="ตัวเลือก">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="loginor" value="- หรือ -">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="loginpage" value="ล็อกอิน">
+    </phrase>
+    <phrase id="login2fapage" value="Login (Two factor authentication)">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="logout" class="fas fa-sign-out-alt ew-icon" value="ล็อกเอ้าท์">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="lookuptitle" value="Lookup - %s" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="masterdetailcopylink" value="คัดลอก" class="icon-md-copy ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="masterdetaileditlink" value="แก้ไข" class="icon-md-edit ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="masterdetaillistlink" value="รายการ" class="icon-table ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="masterdetailviewlink" value="ดู" class="icon-md-view ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="maxfilesize" value="ขนาดไฟล์ใหญ่เกินไป (%s bytes)" client="1">
+    </phrase>
+    <phrase id="mismatchpassword" value="รหัสผ่านไม่ตรงกัน" client="1">
+    </phrase>
+    <phrase id="missinglookuptablename" value="ไม่มีชื่อตารางต้นทาง">
+    </phrase>
+    <phrase id="missingdisplayfieldname" value="ไม่มีชื่อข้อมูลต้นทาง">
+    </phrase>
+    <phrase id="missingdisplayfieldvalue" value="ไม่มีชื่อข้อมูลต้นทางที่ใช้ในการแสดง">
+    </phrase>
+    <phrase id="missingpdfobject" value="ไม่มี PDFObject" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="missinguserlevelid" value="ไม่มีรหัสผู้ใช้">
+    </phrase>
+    <phrase id="missinguserlevelname" value="ไม่มีชื่อของระดับผู้ใช้">
+    </phrase>
+    <phrase id="multicolumncards" value="Cards view" class="fas fa-th-large ew-icon">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="multicolumntable" value="Table view" class="fas fa-table ew-icon">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="multiplemasterdetails" value="รายละเอียดหลายอย่าง" class="icon-master-detail ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="newpassword" value="รหัสผ่านใหม่" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="next" value="ถัดไป" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="noaddrecord" value="ไม่มีการเพิ่มข้อมูลใด ๆ" client="1">
+    </phrase>
+    <phrase id="nofieldselected" value="ไม่มีการเลือกข้อมูล" client="1">
+    </phrase>
+    <phrase id="nopermission" value="สิทธิ์ของท่านไม่สามารถเข้าดู %s ได้">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="noaddpermission" value="สิทธิ์ของท่านไม่สามารถเพิ่มข้อมูลหน้านี้ได้">
+    </phrase>
+    <phrase id="nochartdata" value="ไม่พบข้อมูล" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="nodeletepermission" value="สิทธิ์ของท่านไม่สามารถลบข้อมูลหน้านี้ได้">
+    </phrase>
+    <phrase id="nodistinctcolvals" value="ไม่มี distinct column values สำหรับ SQL: ">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="noeditpermission" value="สิทธิ์ของท่านไม่สามารถแก้ไขข้อมูลหน้านี้ได้">
+    </phrase>
+    <phrase id="nohtmlform" value="HTML form not found">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="norecord" value="ไม่พบข้อมูล" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="norecordforkey" value="ไม่พบข้อมูลสำหรับ">
+    </phrase>
+    <phrase id="noreportorcharts" value="ไม่มีรายการหรือแผนภูมิในหน้านี้">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="norecordselected" value="ไม่มีข้อมูลใดถูกเลือก" client="1">
+    </phrase>
+    <phrase id="nosubscription" value="You have no subscription" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="nosubscriptions" value="No subscriptions found" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="notablegenerated" value="ไม่มีการสร้างตารางใด ๆ">
+    </phrase>
+    <phrase id="notice" value="Notice">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="notifications" value="Notifications" class="fas fa-bell ew-icon">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="notificationsdisabled" value="Notifications disabled" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="notificationsenabled" value="Notifications enabled" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="nouserlevel" value="ไม่มีการตั้งค่าสิทธิ์การใช้งาน">
+    </phrase>
+    <phrase id="nulllabel" value="(Null)">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="of" value="จาก" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="okbtn" value="OK" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="old" value="เก่า">
+    </phrase>
+    <phrase id="oldpassword" value="รหัสผ่านเก่า" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="overwritebtn" value="เขียนทับ" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="overwritelink" value="เขียนทับ">
+    </phrase>
+    <phrase id="page" value="หน้า" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="pagenotfound" value="ไม่พบ Route '%p'">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="pagerfirst" value="รายการแรก">
+    </phrase>
+    <phrase id="pagerlast" value="รายการสุดท้าย">
+    </phrase>
+    <phrase id="pagernext" value="รายการถัดไป">
+    </phrase>
+    <phrase id="pagerprevious" value="รายการก่อนหน้า">
+    </phrase>
+    <phrase id="password" value="รหัสผ่าน" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="passwordmask" value="********">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="passwordrequest" value="ร้องขอรหัสผ่าน">
+    </phrase>
+    <phrase id="passwordchanged" value="รหัสผ่านถูกเปลี่ยนเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="passwordexpired" value="รหัสผ่านหมดอายุ กรุณาเปลี่ยนรหัสผ่าน">
+    </phrase>
+    <phrase id="passwordstrength" value="ความยาก: %p" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="passwordtoosimple" value="รหัสง่ายเกินไป" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="permission" value="การอนุญาต" class="icon-user ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="permissionadd" value="เพิ่ม/คัดลอก" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="permissionadmin" value="แอดมิน" client="1">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="permissiondelete" value="ลบ" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="permissionedit" value="แก้ไข" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="permissionimport" value="นำเข้า" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="permissionlistsearchview" value="รายการ/ค้นหา/เปิดู" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="permissionlist" value="รายการ" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="permissionlookup" value="เรียกข้อมูล" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="permissionsearch" value="ค้นหา" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="permissionview" value="เปิดดู" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="personaldatabtn" value="ข้อมูลส่วนตัว">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="personaldatacontent" value="ท่านสามารถลบข้อมูลส่วนตัวที่เคยบันทึกไว้ได้จากหน้านี้">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="personaldatadeletefailure" value="เกิดข้อผิดพลาดในการลบผู้ใช้">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="personaldatadeletesuccess" value="ลบข้อมูลส่วนตัวเรียบร้อยแล้ว">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="personaldatatitle" value="ข้อมูลส่วนตัว">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="personaldatawarning" value="กำลังจะลบโดยถาวรและจะไม่สามารถนำกลับข้อมูลมาได้">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="pleaseselect" value="กรุณาเลือก" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="prev" value="ก่อนหน้า" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="primarykeyunspecified" value="ไม่มีการระบุ primary key">
+    </phrase>
+    <phrase id="printerfriendly" value="รูปแบบพร้อมพิมพ์" class="icon-print ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="privacypolicy" value=" ">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="privacypolicycontent" value="&lt;div _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;margin-top: 10px; padding: 0 10px;&quot;&gt;&lt;div _ngcontent-flowaccount-classic-c29=&quot;&quot; class=&quot;new-headtext marginunset _heading&quot; style=&quot;max-width: unset; text-align: center; padding: 15px;&quot;&gt;นโยบายคุ้มครองความเป็นส่วนตัว (Privacy Policy)&lt;/div&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;การคุ้มครองความเป็นส่วนตัว และข้อมูลส่วนบุคคลเป็นสิ่งที่ FLOWACCOUNT ให้ความสำคัญเป็นอย่างยิ่ง&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;นโยบายฉบับนี้ บริษัท โฟลว์แอคเคาว์ จำกัด จัดทำขึ้น เพื่อให้ความเข้าใจถึงแนวทางปฏิบัติของเราในการจัดการข้อมูลส่วนบุคคล (Personal Information) ของผู้ใช้บริการทุกท่าน ที่ติดต่อเข้ามายังเว็บไซต์ &lt;a _ngcontent-flowaccount-classic-c29=&quot;&quot; href=&quot;https://flowaccount.com&quot; target=&quot;_blank&quot;&gt;flowaccount.com&lt;/a&gt; หรือสมัครเข้าใช้บริการของ FLOWACCOUNT ดังนี้ เพื่อประโยชน์และความเข้าใจในการใช้บริการจากทางเรา ขอท่านได้โปรดอ่านและทำความเข้าใจเอกสารฉบับนี้โดยละเอียด&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;ทั้งนี้ การติดต่อเข้ามายังเว็บไซด์ หรือสมัครเข้าใช้บริการของ FLOWACCOUNT ถือว่าท่านยินยอมผูกพันตามนโยบายฉบับนี้ทุกประการ&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt; คำจำกัดความใดๆที่ปรากฏในนโยบายคุ้มครองความเป็นส่วนตัวนี้ให้เป็นไปตามที่กำหนดไว้ใน เงื่อนไขการใช้บริการ &lt;a _ngcontent-flowaccount-classic-c29=&quot;&quot; href=&quot;https://www.flowaccount.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color: #0481c0;&quot;&gt;FlowAccount&lt;/a&gt;&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;1. การเก็บรวบรวมข้อมูลส่วนบุคคล&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;FLOWACCOUNT ให้บริการซอฟต์แวร์ที่มีประสิทธิภาพเทียบเท่าระดับสากล ที่ช่วยให้เจ้าของธุรกิจ และที่ปรึกษาด้านการบัญชีสามารถตรวจสอบสถานะทางการเงินและบัญชีได้ด้วยความสะดวกรวดเร็วและปลอดภัย&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;เพื่อความสะดวกในการให้บริการดังกล่าว FLOWACCOUNTมีความจำเป็นต้องจัดเก็บรวบรวมข้อมูลส่วนบุคคลของท่านไว้ เช่น ชื่อ, อาชีพ, หมายเลขบัตรประชาชน, ที่อยู่, ที่ทำงาน, รหัสไปรษณีย์, หมายเลขโทรศัพท์, อีเมลล์, ข้อมูลทางด้านภาษี, ข้อมูลด้านการบัญชีและการเงิน, ข้อมูลการจดทะเบียนทางการค้า, ข้อมูลบัตรเครดิต และ อื่นๆ เป็นต้น&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;2. FLOWACCOUNT จะเก็บข้อมูลส่วนบุคคลของท่านเมื่อ&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt; 2.1 สมัครใช้บริการ &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; 2.2 ใช้บริการ &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; 2.3 มีการติดต่อเข้ามายังหน่วยให้ความช่วยเหลือในการใช้งาน (Support team) &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; 2.4 มีการเข้าชมเว็บไซต์ ท่านมีสิทธิโดยชอบธรรมที่จะไม่ให้ข้อมูลส่วนบุคคลของท่านแก่ FLOWACCOUNT แต่การกระทำเช่นนั้นหมายความว่าท่านจะไม่สามารถใช้บริการใดๆของ FLOWACCOUNT ได้ &lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;3. การให้ความยินยอมในการใช้ข้อมูลส่วนตัวของท่าน&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;3.1 เมื่อท่านสมัครใช้บริการใดๆของ FLOWACCOUNT ถือว่าท่านยินยอมให้ FLOWACCOUNT เก็บและใช้ข้อมูลดังกล่าวเพื่อวัตถุประสงค์ในการให้บริการตามที่กำหนดไว้ในเงื่อนไขการใช้บริการ และตามที่กำหนดไว้ในนโยบายคุ้มครองความเป็นส่วนตัวฉบับนี้เท่านั้น&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;3.2 FLOWACCOUNT จะใช้ข้อมูลส่วนตัวของท่านเพื่อประโยชน์แก่การดังต่อไปนี้&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt; • เพื่อระบุตัวตนของท่าน &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; • เพื่อประโยชน์ในการให้บริการ &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; • เพื่อประชาสัมพันธ์ในเรื่องการให้บริการ หรือการเปลี่ยนแปลงการให้บริการ &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; • เพื่อส่งเสริมการตลาด หรือ การอบรมใดๆที่เกี่ยวข้องกับการให้บริการ &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; • เพื่อให้ความช่วยเหลือ และแก้ปัญหาในด้านเทคนิคหรือปัญหาต่างๆอันเกี่ยวกับการบริการ &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; • เพื่อให้เป็นไปตามที่กฏหมายกำหนด &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; • เพื่อติดต่อสื่อสารกับท่าน &lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;4. หน้าที่ของท่านในการดูแลรักษา Password&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;เพื่อให้FLOWACCOUNT บรรลุวัตถุประสงค์สำเร็จลุล่วงในการเก็บรักษาข้อมูลส่วนบุคคลของท่าน ท่านมีหน้าที่ที่จะต้องเก็บ Password ของท่านไว้เป็นความลับ และท่านมีหน้าที่แจ้งให้ FLOWACCOUNT ทราบในทันทีที่ท่านพบหรือทราบว่ามีการใช้ Password ของท่านโดยไม่ได้รับอนุญาต&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;5. การเก็บข้อมูลส่วนบุคคลของบุคคลภายนอก&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;ในกรณีที่ท่านให้ข้อมูลที่เกี่ยวกับบุคคลภายนอกแก่ FLOWACCOUNT ถือว่าท่านให้การรับประกันว่าท่านกระทำไปโดยมีสิทธิ หรือได้รับอนุญาตโดยชัดแจ้งจากเจ้าของข้อมูลให้กระทำเช่นนั้น และท่านอนุญาตให้ FLOWACCOUNT จัดเก็บ ใช้ คัดลอก ข้อมูลดังกล่าวได้ภายในขอบเขตที่กำหนดไว้ในนโยบายคุ้มครองความเป็นส่วนตัวฉบับนี้ ทั้งนี้ท่านมีหน้าที่ในการแจ้งให้บุคคลภายนอกดังกล่าวทราบถึงการกระทำดังกล่าวและนโยบายคุ้มครองความเป็นส่วนตัว FLOWACCOUNT ด้วยตัวท่านเอง FLOWACCOUNT ไม่มีความรับผิดใดๆต่อบุคคลภายนอกและไม่มีหน้าที่ใดๆในการแจ้งให้บุคคลภายนอกทราบถึงเหตุดังกล่าว &lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;6. การเปิดเผยข้อมูลส่วนบุคคล&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;ความลับและข้อมูลส่วนบุคคลของท่านถือเป็นสิ่งสำคัญยิ่ง FLOWACCOUNT จะไม่เปิดเผยความลับหรือข้อมูลส่วนบุคคลของท่านให้แก่บุคคลภายนอกหรือองค์กรอื่นใด ไม่ว่าเพื่อวัตถุประสงค์ใดๆ เว้นแต่&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt; • ได้รับความยินยอมจากท่าน หรือการทำตามคำร้องขอของท่าน &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; • ในกรณีที่กฏหมายบังคับ เช่น การทำตามคำสั่งศาล หรือหมายศาล เป็นต้น &lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;7.การเก็บและใช้ข้อมูลประเภทที่ไม่ใช่ข้อมูลส่วนบุคคล&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;การสมัครใช้บริการของ FLOWACCOUNT ถือว่าท่านอนุญาตให้ FLOWACCOUNT เข้าถึง หรือใช้ข้อมูลประเภทที่ไม่ใช่ข้อมูลส่วนบุคคลของท่านได้ ในการต่อไปนี้&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt; • เพื่อช่วยให้เราเข้าใจวิธีการที่ท่านใช้บริการของเรา &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; • เพื่อให้ข้อมูลเพิ่มเติมแก่ผู้ใช้บริการเกี่ยวกับการใช้งาน และประโยชน์ที่ผู้ใช้บริการจะได้รับเมื่อใช้บริการ &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; • เพื่อการช่วยเหลือ สนับสนุน และการเพิ่มประสิทธิภาพและประสิทธิผลของธุรกิจขนาดเล็ก &lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;8. การเก็บข้อมูลของท่านไว้ในระบบฐานข้อมูล Cloud ที่ต่างประเทศ&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;FLOWACCOUNT ใช้บริการของ Cloud ซึ่งเป็นผู้นำในการให้บริการด้านระบบฐานข้อมูลชั้นนำของโลก ประกอบการให้บริการของ FLOWACCOUNT เพื่อการเก็บรักษาข้อมูลส่วนบุคคล และข้อมูลอื่นๆของผู้ใช้บริการ ดังนั้น การสมัครเข้าใช้บริการของ FLOWACCOUNT ถือว่าท่านยอมรับว่าข้อมูลของท่านจะถูกเก็บไว้ในระบบฐานข้อมูล ของ Cloud ที่ตั้งอยู่ในต่างประเทศ&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;9. มาตรฐานในการคุ้มครองข้อมูลส่วนบุคคล&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;FLOWACCOUNT รักษามาตรฐานในการรักษาความปลอดภัยโดยเคร่งครัด ทั้งนี้ เพื่อวัตถุประสงค์ในการปกป้องความเสียหาย หรือการเข้าถึงข้อมูลส่วนบุคคลของท่านโดยไม่มีอำนาจ FLOWACCOUNT ใช้ระบบฐานข้อมูล Cloud ที่ได้มาตรฐานสากลของ ซึ่งมีการป้องกันความปลอดภัยของข้อมูลเทียบเท่าระดับสากล เว็บไซต์มีการเข้ารหัส SSL เพื่อความปลอดภัยในการส่งข้อมูลระหว่างเว็บไซต์กับระบบฐานข้อมูล&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;10. FLOWACCOUNT ใช้ “คุกกี้” (Cookies)&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“คุกกี้” คือ ไฟล์คอมพิวเตอร์ขนาดเล็กที่ติดตั้งอยู่บนคอมพิวเตอร์ของท่านเพื่อความสะดวกในการจดจำเว็บไซต์ ที่ท่านเคยเข้าชม “คุกกี้” ไม่สามารถใช้เพื่อระบุถึงตัวท่านหรือมีข้อมูลที่เกี่ยวข้องกับตัวท่านแต่ประการใด แต่ “คุกกี้” นั้นสามารถใช้เพื่อระบุถึงเครื่องคอมพิวเตอร์ของท่านเท่านั้น&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;FLOWACCOUNT ใช้ “คุกกี้” และเมื่อ “คุกกี้” ได้ถูกติดตั้งลงในระบบคอมพิวเตอร์ของผู้ใช้บริการแล้ว ก็จะทำให้ผู้ใช้บริการได้รับความสะดวกสบายในการใช้ประโยชน์จากเว็บไซต์FLOWACCOUNT เนื่องจาก “คุกกี้” จะจดจำรูปแบบลักษณะการใช้งานของผู้ใช้บริการเอาไว้ นอกจากนี้ FLOWACCOUNT จะนำข้อมูลที่ “คุกกี้” ได้บันทึกหรือเก็บรวบรวมไว้ ไปใช้ในการวิเคราะห์เชิงสถิติ หรือในกิจกรรมอื่นของ เว็บไซต์ เพื่อปรับปรุงคุณภาพการให้บริการต่อไป&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;ท่านมีสิทธิปฎิเสธที่จะไม่ใช้ “คุกกี้”ได้ แต่ทั้งนี้ ท่านจะต้องตระหนักว่าการปฎิเสธการใช้งาน “คุกกี้” อาจทำให้ท่านไม่สามารถใช้ประโยชน์จากฟังชั่นหรือการใช้งานบางอย่างบนเว็บไซต์ของ FLOWACCOUNT ได้&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;11. สิทธิในการควบคุมข้อมูลส่วนบุคคล&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;เพื่อประโยชน์ในการรักษาความเป็นส่วนตัว ท่านมีสิทธิเลือกที่จะให้มีการใช้หรือแชร์ข้อมูลส่วนบุคคลของท่าน หรืออาจเลือกที่จะไม่รับข้อมูลหรือสื่อทางการตลาดใดๆ จาก เว็บไซต์ ก็ได้ โดยเพียงแต่กรอกความจำนงดังกล่าวเพื่อแจ้งให้ FLOWACCOUNT ทราบตามช่องทางต่างๆที่ปรากฏบนหน้าเว็บไซต์&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;12. การร้องเรียนปัญหาเรื่องความเป็นส่วนตัว&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;ในกรณีที่ท่านมีปัญหา ข้อสงสัย ข้อเสนอแนะ หรือข้อติชมใดๆ เกี่ยวกับนโยบายคุ้มครองความเป็นส่วนตัว หรือการปฏิบัติตามนโยบายความเป็นส่วนตัวฉบับนี้ FLOWACCOUNT ยินดีที่จะตอบข้อสงสัย รับฟังข้อเสนอแนะ และคำติชมทั้งหลาย อันจะเป็นประโยชน์ต่อการปรับปรุงการให้บริการต่อไป โดยท่านสามารถติดต่อกับ FLOWACCOUNT ได้ผ่านทางช่องทางต่างๆตามที่ปรากฏบนหน้าเว็บไซต์&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt; 13. นโยบายคุ้มครองความเป็นส่วนตัวฉบับนี้อยู่ภายใต้บังคับของเงื่อนไขการใช้บริการ &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; การจำกัดความรับผิด หรือยกเว้นความรับผิดของ FLOWACCOUNT ให้ถือตามที่กำหนดไว้ใน &lt;a _ngcontent-flowaccount-classic-c29=&quot;&quot; data-toggle=&quot;tab&quot; href=&quot;/term-of-use&quot;&gt;เงื่อนไขการใช้บริการ&lt;/a&gt;&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;14. FLOWACCOUNT ขอสงวนสิทธิในการปรับปรุงหรือแก้ไขนโยบายคุ้มครองความเป็นส่วนตัว โดยไม่ต้องแจ้งให้ทราบล่วงหน้า ทั้งนี้ เพื่อความเหมาะสมและมีประสิทธิภาพในการให้บริการ ดังนั้น จึงขอแนะนำให้ผู้ใช้บริการอ่านนโยบายความเป็นส่วนตัวทุกครั้งที่แวะชม หรือเยี่ยมชม หรือมีการใช้บริการจากเว็บไซต์ของ FLOWACCOUNT&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;แก้ไขครั้งล่าสุดเมื่อวันที่ 31 ตุลาคม 2558&lt;/p&gt;&lt;/div&gt;&lt;div _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;margin-top: 10px; padding: 0 10px;&quot;&gt;&lt;div _ngcontent-flowaccount-classic-c29=&quot;&quot; class=&quot;new-headtext marginunset _heading&quot; style=&quot;text-align: center; padding: 15px;&quot;&gt;เงื่อนไขการใช้บริการ&lt;/div&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;ขอต้อนรับสู่FLOWACCOUNTผู้ให้บริการด้านการจัดการบัญชีออนไลน์และการเงินส่วนบุคคลที่ออกแบบเฉพาะสำหรับผู้ประกอบธุรกิจขนาดเล็กเหมาะสำหรับบริษัทที่เจ้าของกิจการต้องทำบัญชีเองเบื้องต้นและจ้างสำนักงานบัญชีมาดูแลเป็นรายเดือน เงื่อนไขการใช้บริการฉบับนี้มีวัตถุประสงค์เพื่อแจ้งถึงสิทธิและหน้าที่ตามกฏหมายระหว่าง “เรา” “บริษัท โฟลว์แอคเคาท์ จำกัด” ในฐานะ “ผู้ให้บริการ” และ “ท่าน” ในฐานะ “ผู้ใช้บริการ” ดังนั้น โปรดอ่านเงื่อนไขการใช้บริการโดยละเอียดเพื่อประโยชน์ในการรับบริการจากเรา&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;การตกลงสมัครเข้าใช้บริการทุกประเภทของ FLOWACCOUNT นั้นถือว่าผู้ใช้บริการยอมรับว่าได้อ่านและทำความเข้าใจเงื่อนไขการใช้บริการโดยละเอียดถี่ถ้วนแล้ว และผู้ใช้บริการยอมรับเงื่อนไขการใช้บริการทุกประการ เงื่อนไขฉบับนี้มีผลผูกพันผู้ใช้บริการตามกฏหมาย&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;1. คำจำกัดความ&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“ข้อตกลง” หมายความถึง เงื่อนไขการใช้บริการ, สัญญา&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“คู่สัญญา” หมายความถึง บริษัท โฟลว์แอคเคาท์ จำกัด และ ผู้ใช้บริการที่สมัครเข้าใช้บริการผ่านทาง flowaccount.com&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“ค่าบริการ” หมายความถึง ค่าบริการรายปีที่ผู้ใช้บริการมีหน้าที่ต้องชำระตามรอบที่กำหนดตามสัญญา ตามอัตราที่ปรากฏบนหน้าเว็บไซต์&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“ข้อมูล” หมายความถึง ข้อมูลใดๆที่ผู้ใช้บริการหรือผู้ที่ได้รับมอบอำนาจจากผู้ใช้บริการให้ทำการแทนได้ให้ไว้แก่ทางเว็บไซต์&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“ข้อมูลลับ” หมายความถึง ข้อมูลต่างๆที่คู่สัญญาได้ให้ไว้แก่กัน ไม่ว่าจะโดยทางวาจา, ลายลักษณ์อักษร หรือข้อมูลอิเลคทรอนิคส์ แต่ไม่รวมถึงข้อมูลใดๆที่ได้ถูกเผยแพร่สู่สาธารณชนเป็นที่เรียบร้อยแล้ว&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“สิทธิในทางทรัพย์สินทางปัญญา” หมายความถึง สิทธิบัตร, เครื่องหมายการค้า, เครื่องหมายบริการ, ลิขสิทธิ, สิทธิโดยธรรม, สิทธิในแบบผลิตภัณฑ์ ไม่ว่าจะได้จดทะเบียนไว้แล้วหรือไม่ก็ตาม&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“การให้บริการ” หมายความถึง การให้บริการซอฟต์แวร์สำหรับการจัดการบัญชีออนไลน์ และการเงินส่วนบุคคล&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“ผู้ใช้งานในระบบ” หมายความถึง บุคคล หรือบริษัทอื่นใด ที่มิใช่ผู้ใช้บริการที่เป็นคู่สัญญากับFLOWACCOUNT แต่ได้รับมอบอำนาจจากผู้ใช้บริการให้สามารถเข้าใช้บริการในนามของตัวผู้ใช้บริการ&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“ท่าน” หมายความถึง ผู้ใช้บริการผู้เป็นคู่สัญญากับ FLOWACCOUNT ไม่รวมถึง ผู้ใช้งานในระบบ&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“เรา” หมายความถึง บริษัท โฟลว์แอคเคาท์ จำกัด&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“เว็บไซต์” หมายความถึง flowaccount.com&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“FLOWACCOUNT” หมายความถึง บริษัท โฟลว์แอคเคาท์ จำกัด&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;“เหตุสุดวิสัย” หมายความถึง เหตุใด ๆ อันจะเกิดขึ้นก็ดี จะให้ผลพิบัติก็ดี เป็นเหตุที่ไม่อาจป้องกันได้แม้ทั้งบุคคลผู้ต้องประสบหรือใกล้จะต้องประสบเหตุนั้น จะได้จัดการระมัดระวังตามสมควรอันพึงคาดหมายได้จากบุคคลในฐานะและภาวะเช่นนั้น&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;2. การให้บริการ&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;2.1 แพ็กเกจและรูปแบบการให้บริการต่างๆนั้นไปไปตามที่ปรากฏบนหน้าเว็บไซต์&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;2.2 การให้บริการของ FLOWACCOUNT สามารถเปลี่ยนแปลงได้ตลอดเวลาเพื่อให้สอดคล้องกับความต้องการของผู้ใช้บริการและตามสภาพสถานการณ์ที่เปลี่ยนแปลงไป และ FLOWACCOUNT ขอสงวนสิทธิในการเปลี่ยนแปลงเงื่อนไขการใช้บริการไม่ว่าเวลาใด โดยถือว่าการเปลี่ยนแปลงมีผลทันทีเมื่อทำการแก้ไขบนหน้าเว็บไซต์ ทั้งนี้ FLOWACCOUNT จะดำเนินการอย่างเต็มความสามารถเพื่อแจ้งให้ผู้ใช้บริการทุกท่านทราบถึงการเปลี่ยนแปลงเช่นว่าผ่านช่องทางอีเมลล์ หรือหน้าเว็บไซต์ โดยถือเป็นหน้าที่ของท่านในการอ่านและทำความเข้าใจเงื่อนไขการบริการล่าสุดที่ปรากฎบนหน้าเว็บไซต์&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;2.3 FLOWACCOUNT ให้สิทธิท่านในการใช้บริการซอฟต์แวร์ ผ่านทางเว็บไซต์ตามแพ็กเกจการใช้บริการที่ท่านได้เลือกไว้ โดยสิทธิดังกล่าวนี้มิใช่สิทธิเด็ดขาด และไม่สามารถโอนได้ และอยู่ภายใต้เงื่อนไขการใช้บริการฉบับนี้&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;2.4 ท่านมีสิทธิมอบหมายให้บุคคลหรือบริษัทใดๆเป็นผู้ใช้งานในระบบเพื่อเข้าจัดการบัญชีออนไลน์ได้ตามจำนวนที่สอดคล้องกับแพ็กเกจการให้บริการที่ท่านเลือกโดยท่านจะต้องรับผิดชอบต่อการใดๆที่ผู้ใช้งานในระบบได้กระทำลงเสมือนกับเป็นการกระทำของท่านเอง ไม่ว่าการกระทำดังกล่าวจะอยู่ในความรับรู้ของท่านหรือไม่ก็ตาม และหากการปฏิบัติของผู้ใช้งานในระบบก่อให้เกิดความเสียหายหรือการเสียผลประโยชน์แก่ท่าน FLOWACCOUNT จะไม่รับผิดชอบใดๆทั้งสิ้น&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;2.5 ท่านมีสิทธิเด็ดขาดในการเปลี่ยนแปลง จำกัด หรือยกเลิกการใช้งานของผู้ใช้งานในระบบได้ตามที่ท่านเห็นสมควร ในกรณีที่มีข้อพิพาทเกิดขึ้นระหว่างท่านและผู้ใช้งานในระบบ FLOWACCOUNT จะปฎิบัติตามคำร้องขอหรือคำสั่งของท่านแต่เพียงผู้เดียวในฐานะคู่สัญญา&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;2.6 FLOWACCOUNT ขอสงวนสิทธิในการไม่ปฎิบัติตามคำร้องขอหรือคำสั่งใดๆจากบุคคลภายนอก ไม่ว่าจะเป็น ผู้ใช้งานในระบบที่ท่านเลือก หรือ ตัวแทนผู้รับมอบอำนาจของท่าน ที่มิใช่คู่สัญญากับบริษัท เว้นแต่ จะปรากฏว่าท่านได้ให้ความยินยอมชัดแจ้งแก่ทาง FLOWACCOUNTเป็นลายลักษณ์อักษร&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;2.7 FLOWACCOUNT ให้บริการซอฟต์แวร์เพื่อให้ความสะดวกสบายในการจัดการบัญชีของท่านเท่านั้น โดยFLOWACCOUNT มิได้ให้บริการในฐานะผู้เชี่ยวชาญด้านการบัญชี ดังนั้นหากมีปัญหาเกี่ยวกับบัญชีโปรดติดต่อใช้บริการนักบัญชีผู้มีวิชาชีพโดยตรง FLOWACCOUNT ขอสงวนสิทธิในการไม่ตอบคำถามหรือให้คำแนะนำใดๆเกี่ยวกับปัญหาเรื่องดังกล่าว&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;3. การสมัครใช้บริการ การต่อสัญญา และการเลิกสัญญา&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;3.1 การสมัครใช้บริการ&lt;/strong&gt;: การสมัครใช้บริการนั้นสามารถทำได้โดยส่งคำขอใช้บริการผ่านทางหน้าเว็บไซต์ FLOWACCOUNT ขอสงวนสิทธิในการปฎิเสธคำขอใช้บริการใดๆที่ ไม่ผ่านหลักเกณท์การประเมินของ FLOWACCOUNT ทั้งนี้ FLOWACCOUNT ไม่มีหน้าที่ที่ต้องเปิดเผยหลักเกณท์การประเมินดังกล่าว&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;3.2 การต่อสัญญา&lt;/strong&gt;: ระยะเวลาขั้นต้นในการใช้บริการแพ็กเกจการให้บริการประเภทมีค่าบริการของ FLOWACCOUNT นั้นมีระยะเวลาหนึ่งปี เว้นแต่จะกำหนดไว้เป็นอย่างอื่นบนหน้าเว็บไซต์ หากลูกค้าไม่แสดงเจตนาเลิกสัญญาตามวิธีการที่ FLOWACCOUNT กำหนด (ตามข้อกำหนดข้อที่3.3.1) ก่อนสิ้นสุดระยะเวลาในการใช้บริการ ระยะเวลาในการใช้บริการจะขยายออกไปโดยอัตโนมัติอีกหนึ่งปีและจะขยายออกไปโดยอัตโนมัติคราวละหนึ่งปีด้วยวิธีการเดียวกัน&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;3.3 การเลิกสัญญา&lt;/strong&gt;&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;3.3.1 สิทธิในการเลิกสัญญาของผู้ใช้บริการ&lt;/strong&gt;&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;3.3.1.1 กรณีเลิกสัญญาประเภทที่ไม่มีค่าบริการ&lt;/strong&gt;: ท่านมีสิทธิเลิกสัญญาได้โดยการส่งคำขอเลิกใช้บริการมายัง support@flowaccount.com&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;3.3.1.2 กรณีเลิกสัญญาประเภทมีค่าบริการรายปี&lt;/strong&gt;: ท่านมีสิทธิเลิกสัญญาได้โดยการส่งคำขอเลิกใช้บริการมายัง support@flowaccount.com การยื่นคำขอดังกล่าวจะทำในเวลาใดก็ได้ก่อนสิ้นสุดระยะเวลาการใช้บริการโดยมีผลเป็นการเลิกสัญญาในวันสุดท้ายของระยะเวลาการใช้บริการในปีที่ได้ยื่นคำขอเลิกการใช้บริการดังกล่าว ในกรณีที่ท่านมีความประสงค์จะเลิกสัญญาโดยให้มีผลในทันที (ปิด Account ก่อนสิ้นสุดระยะเวลาการใช้บริการ) FLOWACCOUNT จะไม่คืนเงินค่าบริการที่ท่านได้ชำระไว้แล้วไม่ว่ากรณีใดๆ&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;3.3.2 สิทธิในการเลิกสัญญาของFLOWACCOUNT&lt;/strong&gt;&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;3.3.2.1 FLOWACCOUNT มีสิทธิบอกเลิกสัญญาไม่ว่าเวลาใดๆ เมื่อ FLOWACCOUNT ทำการบอกเลิกสัญญาแล้วให้ถือว่าการเลิกสัญญา มีผลในวันสุดท้ายของระยะเวลาการใช้บริการในปีที่ได้ทำการบอกเลิกสัญญา&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;3.3.2.2 ข้อกำหนด ตาม 3.3.2.1 นั้นมิใช้บังคับกับกรณีเลิกสัญญาในกรณีที่ผู้ใช้บริการกระทำผิดเงื่อนไขการใช้บริการฉบับนี้ รายละเอียดเป็นไปตาม ข้อกำหนดข้อที่ 4.4.9&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;4. หน้าที่ของผู้ใช้บริการ&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;4.1 การชำระค่าบริการ&lt;/strong&gt;: ท่านมีหน้าที่ชำระค่าบริการรายปีหรือตามอัตราที่กำหนดไว้ในแพ็กเกจที่ท่านเลือกใช้บริการ โดย FLOWACCOUNT จะทำการเรียกเก็บเงินในทุกรอบปีหรือตามอัตราที่กำหนดไว้ในแพ็กเกจดังกล่าว จนกว่าจะมีการเลิกสัญญา(ตามข้อกำหนดที่ 3.3) ในกรณีที่ผู้ใช้บริการไม่ชำระค่าบริการหรือชำระล่าช้าทางบริษัทขอสงวนสิทธิในการระงับการใช้บริการของท่านชั่วคราวจนกว่าจะมีการชำระราคาโดยสิ้นเชิง ทั้งนี้ FLOWACCOUNT ไม่มีความรับผิดใดๆในความเสียหายที่เกิดจากการระงับการใช้บริการด้วยเหตุดังกล่าว &lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;4.2 การให้ข้อมูล&lt;/strong&gt;: ท่านมีหน้าที่ให้ข้อมูลที่ถูกต้องเป็นจริงทุกประการแก่ FLOWACCOUNT ในกรณีที่มีการเปลี่ยนชื่อ, ชื่อบริษัท, ชื่อทางการค้า, ตัวแทน, ที่อยู่หรือข้อมูลอื่นในการติดต่อ ท่านจะต้องแจ้งการเปลี่ยนแปลงดังกล่าวให้ FLOWACCOUNT ทราบเป็นลายลักษณ์อักษรโดยทันที ตามวิธีการแจ้งข้อมูลที่ FLOWACCOUNT กำหนด โดย FLOWACCOUNT อาจขอให้ท่านส่งเอกสารเพื่อยืนยันการเปลี่ยนแปลงข้อมูลดังกล่าว และท่านยอมรับว่าจะปฏิบัติตามคำร้องขอดังกล่าวของ FLOWACCOUNT &lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;4.3 ข้อห้ามในการใช้บริการ:&lt;/strong&gt;&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt; 4.3.1 ท่านมีสิทธิใช้บริการของ FLOWACCOUNT เพื่อจัดการบัญชีออนไลน์หรือการเงินส่วนบุคคลตามปกติธรรมดาการค้าของท่านโดยสุจริต และชอบด้วยกฏหมายเท่านั้น ทั้งนี้ท่านจะต้องไม่ใช้บริการของ FLOWACCOUNT เพื่อสนับสนุน หรือใช้ในทางที่เกี่ยวข้องกับการหรือกิจการใดๆอันมีวัตถุประสงค์ต้องห้ามชัดแจ้งตามกฏหมายไทย หรือขัดต่อศีลธรรมอันดีของประชาชนชาวไทย หรือที่สร้างความเสื่อมเสีย หรือทำลายความมั่นคง ต่อประเทศชาติ ศาสนา และ สถาบันพระมหากษัตริย์ ทั้งนี้ หากมีการตรวจพบการกระทำดังกล่าว FLOWACCOUNT ขอสงวนสิทธิในการบอกเลิกสัญญาโดยมิต้องแจ้งล่วงหน้าและไม่คืนค่าบริการใดๆทั้งสิ้น และ ไม่มีความรับผิดต่อความเสียหายใดๆต่อตัวผู้ฝ่าฝืนหรือบุคคลภายนอก &lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt; 4.3.2 ท่านจะต้องไม่ส่งข้อมูลใดๆเข้ามาในระบบของ FLOWACCOUNT อันเป็นความผิดตาม พ.ร.บ คอมพิวเตอร์ พ.ศ. 2550 มาตรา 14 ที่บัญญัติไว้ว่า &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; “ผู้ใดกระทำความผิดที่ระบุไว้ดังต่อไปนี้ ต้องระวางโทษจำคุกไม่เกินห้าปี หรือปรับไม่เกินหนึ่งแสนบาท หรือทั้งจำทั้งปรับ &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; (๑) นำเข้าสู่ระบบคอมพิวเตอร์ซึ่งข้อมูลคอมพิวเตอร์ปลอมไม่ว่าทั้งหมดหรือบางส่วน หรือข้อมูลคอมพิวเตอร์อันเป็นเท็จโดยประการที่น่าจะเกิดความเสียหายแก่ผู้อื่นหรือประชาชน &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; (๒)นำเข้าสู่ระบบคอมพิวเตอร์ซึ่งข้อมูลคอมพิวเตอร์อันเป็นเท็จ โดยประการที่น่าจะเกิดความเสียหายต่อความมั่นคงของประเทศหรือก่อให้เกิดความตื่นตระหนกแก่ประชาชน &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; (๓) นำเข้าสู่ระบบคอมพิวเตอร์ซึ่งข้อมูลคอมพิวเตอร์ใดๆ อันเป็นความผิดเกี่ยวกับความมั่นคงแห่งราชอาณาจักรหรือความผิดเกี่ยวกับการก่อการร้ายตามประมวลกฎหมายอาญา &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; (๔) นำเข้าสู่ระบบคอมพิวเตอร์ซึ่งข้อมูลคอมพิวเตอร์ใดๆ ที่มีลักษณะอันลามกและข้อมูลคอมพิวเตอร์นั้นประชาชนทั่วไปอาจเข้าถึงได้ &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; (๕) เผยแพร่หรือส่งต่อซึ่งข้อมูลคอมพิวเตอร์โดยรู้อยู่แล้วว่าเป็นข้อมูลคอมพิวเตอร์ตาม (๑)(๒) (๓) หรือ (๔)” &lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;4.4 หน้าที่ทั่วไปในการใช้บริการ&lt;/strong&gt;&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;4.4.1 ท่านจะต้องเก็บรักษา User name และ Password ของท่านไว้ด้วยความระมัดระวังและเป็นความลับ โดยท่านจะเป็นฝ่ายรับความเสี่ยงในกรณีที่บุคคลภายนอกใช้รหัสผ่านโดยฉ้อฉลหรือโดยมิได้รับอนุญาต FLOWACCOUNT จะถือว่าการใช้รหัสผ่านที่ลงทะเบียนใดๆ เป็นการกระทำของท่านในฐานะคู่สัญญาที่ถือรหัสผ่านดังกล่าว ในกรณีที่มีการใช้ User name และ Password ของท่านโดยบุคคลภายนอกที่ปราศจากอำนาจ ท่านมีหน้าที่ที่จะต้องแจ้งเหตุดังกล่าวให้ FLOWACCOUNT ทราบโดยทันที เพื่อที่ทางเราจะได้ใช้มาตราการเพื่อทำการยับยั้งและแก้ไขปัญหาดังกล่าวได้อย่างทันท่วงที ทังนี้มาตรการดังกล่าวมีขึ้นเพื่อให้ความช่วยเหลือแก่ท่านเท่านั้น FLOWACCOUNT ไม่มีความรับผิดใดๆต่อท่านหรือผู้อื่นในความบกพร่องหรือผลใดๆของการใช้มาตรการเช่นว่า เมื่อท่านสมัครใช้บริการ ถือว่าท่านให้ความยินยอมล่วงหน้าแก่ FLOWACCOUNT ในการดำเนินมาตราการดังกล่าว&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;4.4.2 ท่านจะต้องไม่พยายามหรือกระทำการใดๆที่เป็นอันตรายต่อความปลอดภัยของระบบคอมพิวเตอร์หรือระบบเน็ตเวิร์คของ FLOWACCOUNT และของบุคคลภายนอกที่ FLOWACCOUNT ได้ใช้ประกอบการให้บริการ&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;4.4.3 ท่านจะต้องไม่พยายามหรือกระทำการใดๆเพื่อเข้าถึงส่วนใดๆของเว็บไซต์โดยปราศจากอำนาจในการกระทำเช่นว่า เว้นแต่ท่านได้รับอนุญาตโดยชัดแจ้งให้ทำได้&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;4.4.4 ท่านจะต้องไม่ส่งหรือป้อนข้อมูล หรือเอกสารใดๆเข้ามาในเวบไซด์โดยประการที่อาจทำให้เกิดความเสียหายแก่อุปกรณ์ ฮาร์ดแวร์ หรือ ซอฟท์แวร์ ของ FLOWACCOUNT หรือ ของบุคคลภายนอกที่ FLOWACCOUNT ได้ใช้ประกอบการให้บริการ หรือของสมาชิกท่านอื่น ข้อความนี้ให้รวมถึง การส่งหรือป้อนข้อมูลหรือเอกสารใดที่ละเมิดต่อกฏหมาย หรือ ที่ท่านไม่มีสิทธิจะใช้ตามกฏหมาย&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;4.4.5 ในกรณีที่มีบุคคลอื่นใช้สิทธิเรียกร้องหรือมีข้อเรียกร้องต่อท่าน หรือท่านถูกฟ้องร้องดำเนินคดีเกี่ยวกับหรือมีสาเหตุมาจากการใช้บริการของ FLOWACCOUNT ท่านจะยุติข้อเรียกร้องด้วยค่าใช้จ่ายและความรับผิดชอบของท่านเอง และท่านจะไม่ให้ FLOWACCOUNT เข้าไปเกี่ยวข้องในการยุติข้อเรียกร้องดังกล่าว&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;4.4.6 ในกรณีที่ FLOWACCOUNT มีค่าเสียหายหรือค่าใช้จ่ายไม่ว่าโดยตรงหรือโดยอ้อม (รวมทั้งค่าทนายความ) เกี่ยวกับหรือมีสาเหตุมาจากการใช้บริการของท่าน ท่านยอมรับว่าจะชดใช้ค่าเสียหายหรือค่าใช้จ่ายดังกล่าวให้แก่ FLOWACCOUNTโดยสิ้นเชิง&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;4.4.7 หากท่านกำหนดให้ผู้ใช้บริการรายอื่นหรือบุคคลภายนอกเข้ามีส่วนร่วมในการดูแลจัดการบัญชีของท่าน บริษัทจะถือว่าการปฏิบัติของบุคคลภายนอกดังกล่าวคือการปฏิบัติของท่าน หากการปฏิบัติของบุคคลดังกล่าวก่อให้เกิดความเสียหายหรือการเสียผลประโยชน์แก่ท่าน บริษัทจะไม่รับผิดชอบใดๆทั้งสิ้น&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;4.4.8 ในกรณีที่ท่านประสบปัญหาด้านเทคนิค หรือการใช้งาน ท่านมีหน้าที่ในการตรวจสอบ วิเคราะห์และแก้ไขปัญหาในเบื้องต้น หากท่านมีข้อสงสัย หรือต้องการความช่วยเหลือเพิ่มเติมประการใด ให้ติดต่อ หน่วยสนับสนุนให้ความช่วยเหลือ (Help support) ของ ทาง FLOWACCOUNT ตามช่องทางการติดต่อที่แสดงไว้บนหน้าเว็บไซต์&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt; 4.4.9 การผิดหน้าที่ใดๆตามที่ระบุไว้ FLOWACCOUNT มีสิทธิเด็ดขาดในการระงับการให้บริการชั่วคราว หรือมีสิทธิบอกเลิกสัญญาโดยไม่ต้องแจ้งให้ทราบล่วงหน้าและไม่ต้องคืนค่าบริการใดๆทั้งสิ้น &lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;5. การโอนสิทธิ&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;5.1 FLOWACCOUNT ไม่อนุญาตให้ท่านโอนสิทธิและหน้าที่ที่เกิดขึ้นที่เกิดขึ้นภายใต้สัญญา ให้แก่บุคคลอื่นโดยมิได้รับความยินยอมเป็นลายลักษณ์อักษรจาก FLOWACCOUNT&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;5.2 ในกรณีที่ FLOWACCOUNT มีความประสงค์ที่จะโอนบริการ ไม่ว่าทั้งหมดหรือบางส่วนให้แก่บริษัทอื่น หรือ บริษัทในกลุ่มบริษัทของ FLOWACCOUNT หรือบุคคลอื่น FLOWACCOUNT อาจโอนสถานะทางสัญญาภายใต้สัญญาให้บริษัทอื่น หรือ บริษัทในกลุ่มบริษัทของFLOWACCOUNT หรือบุคคลอื่น หลังจากที่ได้แจ้งให้ท่านทราบ และเมื่อท่านสมัครเข้าใช้บริการ จะถือว่าท่านได้ให้ความเห็นชอบในการโอนดังกล่าวแล้วเป็นการล่วงหน้า&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;6. ความลับ และข้อมูลส่วนบุคคล&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;ความลับและข้อมูลส่วนบุคคลของท่านถือเป็นสิ่งสำคัญยิ่ง FLOWACCOUNT จะไม่เปิดเผยความลับหรือข้อมูลส่วนบุคคลของท่านให้แก่บุคคลภายนอกหรือองค์กรอื่นใดไม่ว่าเพื่อวัตถุประสงค์ใดๆ เว้นแต่&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt; • ได้รับความยินยอมจากท่าน หรือกระทำตามคำร้องขอของท่าน &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; • ในกรณีที่กฏหมายบังคับ เช่น การทำตามคำสั่งศาล หรือหมายศาล เป็นต้น &lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt; โปรดศึกษาเพิ่มเติม ในส่วน &lt;a _ngcontent-flowaccount-classic-c29=&quot;&quot; data-toggle=&quot;tab&quot; href=&quot;/privacy-statement&quot;&gt;นโยบายความเป็นส่วนตัว&lt;/a&gt;&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;7. ทรัพย์สินทางปัญญา&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;7.1 FLOWACCOUNT เป็นเจ้าของลิขสิทธิ์ และ ทรัพย์สินทางปัญญาในข้อมูลที่แสดง รูปภาพ และ รูปแบบการแสดงผล ตามที่ปรากฏในเว็บไซต์ทั้งหมด ยกเว้นจะมีการระบุอย่างชัดเจนเป็นอื่น ห้ามมิให้ผู้ใดทำการคัดลอก ทำซ้ำ มีสำเนา สำรองไว้ ทำเลียนแบบ ทำเหมือน ดัดแปลง ทำเพิ่ม เพื่อนำไปเผยแพร่ด้วยวัตถุประสงค์อื่นใด โดยปราศจากความยินยอมเป็นหนังสือจากFLOWACCOUNT ทั้งนี้เว้นแต่จะได้มีการระบุกำหนดไว้ในข้อตกลงและ เงื่อนไขในเว็บไซต์&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;7.2 ข้อมูล หรือเอกสารอิเลคทรอนิคส์ใน Account (บัญชีผู้ใช้งาน) ของท่านถือเป็นทรัพย์สินของท่าน อย่างไรก็ตามการเข้าถึงข้อมูล หรือ เอกสารอิเลคทรอนิคส์ดังกล่าวจะต้องอยู่ในเงื่อนไขที่ว่าท่านได้ชำระค่าบริการรายปีโดยสิ้นเชิงแล้ว และถือว่าท่านได้อนุญาตให้ FLOWACCOUNT ใช้ คัดลอก ส่ง จัดเก็บ หรือ ทำการสำรอง(Backup) ข้อมูล หรือเอกสารอิเลคทรอนิคส์ ดังกล่าวเพื่อวัตถุประสงค์ในการให้บริการของFLOWACCOUNTเพื่อประโยชน์ของท่านในการเข้าถึงข้อมูลต่างๆด้วยความสะดวกรวดเร็ว&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;7.3 การสำรองข้อมูล (Backup) และ การเก็บรักษาข้อมูลของท่านถือเป็นนโยบายและทางปฎิบัติที่สำคัญอย่างยิ่งในการให้บริการของFLOWACOOUNT FLOWACCOUNT มีมาตราการรักษาข้อมูลของท่านตามมาตรฐานสากลเพื่อป้องกันการสูญหายหรือเสียหายของข้อมูล อย่างไรก็ดี FLOWACCOUNT ไม่สามารถให้การรับรองได้ว่าข้อมูลของท่านจะไม่มีทางสูญหายหรือเสียหายไม่ว่าประการใดๆ ซึ่งอาจเกิดขึ้นได้ด้วยเหตุสุดวิสัยหรือด้วยเหตุปัจจัยที่ไม่อาจคาดถึงได้ ดังนั้น ท่านมีหน้าที่ที่จะต้องสำรองข้อมูลหรือทำการคัดลอกข้อมูลหรือเอกสารใดๆที่ท่านต้องการส่งเข้ามาในระบบด้วยตัวท่านเองอีกทางหนึ่ง เพื่อประโยชน์สูงสุดในการเก็บรักษาข้อมูลของท่าน FLOWACCOUNT ไม่มีความรับผิดใดๆ ในกรณีข้อมูลสูญหายหรือเสียหาย&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;8. การรับมอบอำนาจจากผู้อื่น และ การใช้บริการของ FLOWACCOUNT เพื่อประโยชน์ของบุคคลภายนอก&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;8.1 การรับมอบอำนาจจากผู้อื่น&lt;/strong&gt; ในกรณีที่ท่านสมัครเข้ารับบริการของFLOWACCOUNT ในฐานะตัวแทนของผู้อื่น ถือว่าท่านให้การรับประกันว่าท่านมีสิทธิและได้รับมอบอำนาจชัดแจ้งจากตัวการในการตกลงเข้าผูกพันตามเงื่อนไขการใช้บริการนี้ และไม่ว่าประการใดท่านยอมรับว่าท่านเข้าผูกพันตามเงื่อนไขการใช้บริการนี้เฉกเช่นเดียวกับตัวการ กล่าวคือท่านไม่อาจอ้างความเป็นตัวแทนเพื่อหลุดพ้นความรับผิดใดๆตามข้อตกลงนี้&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;8.2 การใช้บริการของ FLOWACCOUNT เพื่อประโยชน์ของบุคคลภายนอก&lt;/strong&gt;&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;ในกรณีที่ท่านใช้บริการของ FLOWACCOUNT เพื่อประโยชน์ของบุคคลภายนอก ให้ถือว่า ท่านรับประกันว่าท่านมีสิทธิตามกฏหมายที่จะดำเนินการดังกล่าว แต่ทั้งนี้ FLOWACCOUNT จะไม่ปฏิบัติตามคำร้องขอ หรือตามคำสั่งใดๆจากบุคคลภายนอกที่มิใช่คู่สัญญากับ FLOWACCOUNT&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;ในกรณีที่มีบุคคลอื่นใช้สิทธิเรียกร้องหรือมีข้อเรียกร้องต่อท่าน หรือท่านถูกฟ้องร้องดำเนินคดีเกี่ยวกับหรือมีสาเหตุมาจากการใช้บริการของ FLOWACCOUNT ท่านจะยุติข้อเรียกร้องด้วยค่าใช้จ่ายและความรับผิดชอบของท่านเอง และท่านจะไม่ให้ FLOWACCOUNT เข้าไปเกี่ยวข้องในการยุติข้อเรียกร้องดังกล่าว&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;FLOWACCOUNT ไม่มีความรับผิดต่อบุคคลภายนอกไม่ว่ากรณีใดๆ&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;9. การระงับการให้บริการ&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;9.1 FLOWACCOUNT อาจระงับการให้บริการเป็นการชั่วคราว ด้วยเหตุจำเป็นบางประการ (ตามข้อกำหนดที่ 9.2) และในกรณีที่มีการระงับบริการประเภทที่มีค่าบริการ FLOWACCOUNT ขอสงวนสิทธิในการไม่คืนค่าบริการสำหรับระยะเวลาที่ระงับบริการดังกล่าว และถือว่า FLOWACCOUNT ไม่มีความรับผิดในการระงับบริการดังกล่าวไม่ว่าประการใด&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;9.2 เหตุแห่งการระงับการให้บริการอาจรวมถึงแต่ไม่จำกัดเป็นการเฉพาะ&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;9.2.1 การบำรุงรักษาอุปกรณ์ที่จำเป็นสำหรับการให้บริการ&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;9.2.2 อุปกรณ์ที่จำเป็นในการให้บริการไม่สามารถใช้งานได้&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;9.2.3 เกิดเหตุในด้านการปฏิบัติการหรือด้านเทคนิคซึ่งส่งผลต่อการให้บริการ&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;9.2.4 การขัดข้องของระบบของบุคคลภายนอกที่ FLOWACCOUNT ใช้ประกอบการให้บริการของ FLOWACCOUNT&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;9.2.5 การเกิดเหตุการณ์ที่เป็นอุปสรรคในการให้บริการ ยกตัวอย่างเช่นไฟฟ้าขัดข้อง, ไฟไหม้, น้ำท่วม, ภัยธรรมชาติ, ภับพิบัติต่างๆ, ความไม่สงบของเหตุการณ์บ้านเมือง, การนัดหยุดงาน หรือ เหตุสุดวิสัยอื่นใด&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;10. การยกเลิกการให้บริการ&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;FLOWACCOUNT ขอสงวนสิทธิในการยกเลิกการให้บริการทั้งหมดหรือแต่บางส่วน โดยไม่ต้องแจ้งล่วงหน้า และไม่มีความรับผิดใดๆต่อคู่สัญญาและบุคคลภายนอก&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;11. ข้อจำกัดความรับผิด&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;11.1 แม้ FLOWACCOUNT จะมีความตั้งใจและพยายามอย่างยิ่งในการให้บริการอย่างเต็มประสิทธิภาพแต่อย่างไรก็ตาม FLOWACCOUNT ไม่สามารถให้การรับประกันได้ว่าการใช้บริการของท่านจะปราศจากข้อบกพร่อง (ซึ่งรวมถึงแต่ไม่จำกัดเฉพาะ ความเสถียร, ความเชื่อถือได้, ความแม่นยำ, ความสมบูรณ์, ประสิทธิผล, ความเหมาะสมกับวัตถุประสงค์บางประการ, ความบกพร่องเกี่ยวกับความปลอดภัย, ข้อผิดพลาด, จุดบกพร่องของคอมพิวเตอร์ (bug) หรือ ไวรัส (virus)) ทั้งนี้เนื่องด้วยเป็นที่ทราบกันดีว่า ระบบที่เกี่ยวข้องกับการให้บริการ ไม่ว่าจะเป็น ระบบการสื่อสาร ระบบคอมพิวเตอร์ หรือ อินเตอร์เน็ตนั้นย่อมมีความไม่แน่นอน อาจทำให้เกิดการรบกวน หรือเป็นอุปสรรค์แก่ท่านในการใช้บริการของเรา&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;11.2 FLOWACCOUNT ไม่รับผิดชอบต่อความเสียหายใดๆที่เกิดจากการใช้บริการ หรือที่เกิดขึ้นจากความบกพร่องในการใช้บริการไม่ว่าด้วยเหตุใดๆ เว้นแต่ความเสียหายเกิดจากการจงใจหรือความประมาทประมาทเลินเล่ออย่างร้ายแรงของ FLOWACCOUNT ทั้งนี้ ในกรณีดังกล่าว FLOWACCOUNT จำกัดความรับผิดต่อค่าเสียหายที่แท้จริงที่เกิดขึ้นแก่ท่านไม่ว่าโดยตรงหรือโดยอ้อมสุงสุดไม่เกินอัตราค่าบริการรายปีหรือตามอัตราที่กำหนด ที่ FLOWACCOUNT ได้รับชำระจากท่าน ในปีที่เกิดเหตุการณ์ซึ่งทำให้เกิดค่าเสียหายนั้น&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;12. ความสมบูรณ์ของเงื่อนไขการใช้บริการ&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;หากมีข้อกำหนดหรือข้อความใดในเงื่อนไขการใช้บริการ FLOWACCOUNT ฉบับ นี้เป็นโมฆะหรือใช้บังคับไม่ได้ตามกฏหมายไทย ให้ถือว่าข้อกำหนดหรือข้อความที่ตกเป็นโมฆะหรือใช้บังคับไม่ได้นั้นไม่มีผลกระทบต่อความสมบูรณ์หรือการบังคับใช้ข้อกำหนดอื่นที่เหลือหรือกฎเกณฑ์อื่นที่เกี่ยวข้อง&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;13. การขัดกันของเงื่อนไขการใช้บริการ&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;ในกรณีที่มีความแตกต่างระหว่างข้อกำหนดในการใช้บริการ FLOWACCOUNT ฉบับภาษาไทยและฉบับคำแปล เงื่อนไขการใช้บริการ FLOWACCOUNT ฉบับภาษาไทยจะมีผลเหนือเงื่อนไขฉบับภาษาอื่น&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;strong _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;14. กฎหมายที่ใช้บังคับ และเขตอำนาจศาล&lt;/strong&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;เงื่อนในการใช้บริการ FLOWACCOUNT ฉบับนี้ อยู่ภายใต้บังคับของกฏหมายไทย โดยไม่คำนึงถึงกฎหรือบทบัญญัติว่าด้วยการเลือกกฎหมายหรือการขัดกันของกฎหมาย และให้ศาลในราชอาณาจักรไทยเป็นศาลที่มีเขตอำนาจในการพิจารณาชี้ขาดตัดสินข้อพิพาทที่เกิดขึ้นภายใต้เงื่อนไขการใช้บริการฉบับนี้&lt;/p&gt;&lt;br _ngcontent-flowaccount-classic-c29=&quot;&quot;&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;15. FLOWACCOUNT ขอสงวนสิทธิในการเปลี่ยนแปลงเงื่อนไขการใช้บริการไม่ว่าเวลาใด โดยถือว่าการเปลี่ยนแปลงมีผลทันทีเมื่อทำการแก้ไขบนหน้าเวบไซต์ ทั้งนี้ FLOWACCOUNT จะดำเนินการอย่างเต็มความสามารถเพื่อแจ้งให้ผู้ใช้บริการทุกท่านทราบถึงการเปลี่ยนแปลงเช่นว่าผ่านช่องทางอีเมล หรือหน้าเว็บไซต์ โดยถือเป็นหน้าที่ของลูกค้าในการอ่านและทำความเข้าใจเงื่อนไขการบริการล่าสุดที่ปรากฎบนหน้าเว็บไซต์&lt;/p&gt;&lt;p _ngcontent-flowaccount-classic-c29=&quot;&quot; style=&quot;text-align: left;&quot;&gt;แก้ไขครั้งล่าสุดเมื่อวันที่ 31 ตุลาคม 2558&lt;/p&gt;&lt;/div&gt;">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="pushnotificationdefaulttitle" value="New Notification">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="pushnotificationformtitle" value="Title" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="pushnotificationformbody" value="Body" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="pushnotificationfailure" value="Failed to send push notifications (failure = %f)" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="pushnotificationsent" value="Push notifications are sent&lt;br&gt;(success = %s, failure = %f)" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="pushnotificationsuccess" value="All push notifications are sent (success = %s)" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="quicksearchauto" value="อัตโนมัติ" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="quicksearchautoshort" value="" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="quicksearchall" value="ค้นหาทุกคำ" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="quicksearchallshort" value="ทั้งหมด" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="quicksearchany" value="คำใดๆ" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="quicksearchanyshort" value="คำหลัก" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="quicksearchexact" value="คำที่ตรงกัน" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="quicksearchexactshort" value="ตรงกัน" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="recipient" value="ผู้รับ" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="record" value="ข้อมูล" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="recordchangedbyotheruser" value="ข้อมูลถูกเปลี่ยนแปลงโดยผู้ใช้อื่น กดปุ่ม reload เพิ่มดึงข้อมูลใหม่ (ข้อมูลของคุณจะหายไป) หรือกดปุ่ม Overwrite เมื่อบันทึกข้อมูลขอบคุณทับลงไป">
+    </phrase>
+    <phrase id="recorddeleted" value="ลบข้อมูลเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="recordinserted" value="เพิ่มข้อมูลเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="recordupdated" value="แก้ไขข้อมูลเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="recordsperpage" value="จำนวนข้อมูลในแต่ละหน้า" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="register" value="ลงทะเบียน" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="registerbtn" value="ลงทะเบียน">
+    </phrase>
+    <phrase id="registersuccess" value="ลงทะเบียนเสร็จเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="registersuccessactivate" value="ลงทะเบียนอีเมลสำเร็จ อีเมลยืนยันได้ถูกส่งไปยังที่อยู่อีเมลของคุณ โปรดคลิกที่ลิงก์ในอีเมลเพื่อเปิดใช้งานบัญชีของคุณ">
+    </phrase>
+    <phrase id="registerpage" value="ลงทะเบียน">
+    </phrase>
+    <phrase id="relatedrecordrequired" value="คุณไม่สามารถเพิ่มหรือปรับปรุงการบันทึกเพราะค่าคีย์ต่างประเทศไม่ได้อยู่ในตารางต้นแบบ '%t'">
+    </phrase>
+    <phrase id="relatedrecordexists" value="ไม่สามารถลบได้เพราะมีข้อมูลส่วนอื่นที่เกี่ยวข้องอยู่ '%t'">
+    </phrase>
+    <phrase id="reloadbtn" value="เรียกข้อมูลใหม่" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="reloadlink" value="เรียกข้อมูลใหม่">
+    </phrase>
+    <phrase id="rememberme" value="จำการเข้าระบบไว้">
+    </phrase>
+    <phrase id="remove" value="เอาออก">
+    </phrase>
+    <phrase id="replace" value="แทนที่">
+    </phrase>
+    <phrase id="report" value="รายงาน">
+    </phrase>
+    <phrase id="resetpwd" value="รีเซ็ตรหัสผ่าน">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="resetpwdmsg" value="รีเซ็ตรหัสผ่าน">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="resendregisteremailbtn" value="ส่งอีเมลลงทะเบียนอีกครั้ง">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="resendregisteremailsuccess" value="อีเมลที่ลงทะเบียนสำหรับผู้ใช้ '%u' ได้รับการส่ง">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="resendregisteremailfailure" value="ไม่สามารถที่จะกลับมาลงทะเบียนส่งอีเมลสำหรับผู้ใช้ '%u' ไม่ผ่าน">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="reset" value="รีเชต">
+    </phrase>
+    <phrase id="resetallfilter" value="รีเซ็ตตัวกรอง" class="icon-reset-search ew-icon">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="resetconcurrentuserbtn" value="รีเซ็ตเซสชั่น ผู้ใช้งาน">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="resetconcurrentusersuccess" value="เซสชั่นสำหรับผู้ใช้ '%u' ได้รับการตั้งค่า">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserfailure" value="ล้มเหลวในการตั้งค่าเซสชั่นสำหรับผู้ใช้ '%u'">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="resetloginretrybtn" value="รีเซ็ตการล็อกอิน">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="resetloginretrysuccess" value="รีเชตกผู้เข้าใช้งาน '%u' สำเร็จ">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="resetloginretryfailure" value="ล้มเหลวในการรีเชตผู้ใช้งาน '%u'">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="resetsearchbtn" value="รีเชต" class="icon-reset-search ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="resetsearch" value="รีเชต">
+    </phrase>
+    <phrase id="resetusersecretbtn" value="Reset user secret">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="resetusersecretsuccess" value="User secret for user '%u' has been reset">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="resetusersecretfailure" value="Failed to reset user secret for user '%u'">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="rptavg" value="เฉลี่ย">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="rptcnt" value="จำนวน">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="rptdtlrec" value="ข้อมูลรายละเอียด">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="rptgrandsummary" value="รวมทั้งหมด">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="rptmax" value="มากที่สุด">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="rptmin" value="น้อยที่สุด">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="rptpagesummary" value="รวมหน้านี้">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="rptsum" value="ผลรวม">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="rptsumhead" value="ผลรวมของ">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="savebtn" value="บันทึก" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="savecurrentfilter" value="บันทึกตัวกรองปัจจุบัน">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="scan2faqrcode" value="After installing the Google Authenticator, scan the QR Code above and enter the verification code" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="search" value="ค้นหา" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="searchbtn" value="ค้นหา" client="1">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="searchlink" value="ค้นหา" class="fas fa-search ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="searchpanel" value="แผงค้นหา">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="securitycode" value="Security code" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="securitycodeverified" value="Security code verified, redirecting..." client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="selectall" value="Select all">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="selectbtn" value="เลือก" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="sendemailbtn" value="ส่ง">
+    </phrase>
+    <phrase id="sendemailsuccess" value="ส่งอีเมลสำเร็จ" client="1">
+    </phrase>
+    <phrase id="sender" value="ผู้ส่ง" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="sendpushnotification" value="Send push notifications" class="fas fa-bell ew-icon" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="sendpushnotificationbtn" value="Send">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="sendpushnotificationstoall" value="No subscriptions selected. Send push notifications to all?" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="sendpwd" value="ส่งรหัสผ่าน" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="sequencenumber" value="ลำดับ %s.">
+    </phrase>
+    <phrase id="servercommunicationerror" value="เกิดข้อผิดพลาด ขณะที่การสื่อสาร ไปยังเซิร์ฟเวอร์" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="servererror" value="พบ internal error ขณะประมวลผล">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="sessionwillexpire" value="เซสชั่นของคุณจะหมดอายุใน %s วินาที.  คลิกตกลงเพื่อดำเนินการต่อเซสชั่นของคุณ" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="sessionexpired" value="เซสชั่นของคุณหมดอายุแล้ว." client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredbtn" value="ตั้งรหัสผ่านหมดอายุ">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredsuccess" value="รหัสผ่านสำหรับผู้ใช้ '%u' ได้รับการตั้งค่าให้เป็นหมดอายุ">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredfailure" value="ล้มเหลวในการตั้งรหัสผ่านสำหรับผู้ใช้ '%u' หมดอายุ">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="showallbtn" value="แสดงทั้งหมด" class="icon-reset-search ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="showall" value="แสดงทั้งหมด">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="sortup" value="Ascending" class="fas fa-sort-up" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="sortdown" value="Descending" class="fas fa-sort-down" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="subject" value="หัวข้อ" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="success" value="สำเร็จ" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="summary" value="ภาพรวม">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="summarycolon" value=": ">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="table" value="ตาราง">
+    </phrase>
+    <phrase id="tables" value="Tables" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="to" value="ถึง">
+    </phrase>
+    <phrase id="top" value="บน">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="total" value="รวม">
+    </phrase>
+    <phrase id="unauthorizeduserid" value="ผู้ใช้ (%c) ไม่สามารถกำหนดรหัสผู้ใช้ (%u) ได้">
+    </phrase>
+    <phrase id="unauthorizedparentuserid" value="ผู้ใช้ (%c) ไม่สามารถกำหนดสิทธิ์ผู้ใช้ (%p) ได้">
+    </phrase>
+    <phrase id="unauthorizedmasteruserid" value="ผู้ใช้ (%c) ไม่สามารถเพิ่มข้อมูลใน Master filter: %f ได้">
+    </phrase>
+    <phrase id="unsupportedbrowser" value="บราวเซอร์ของท่านไม่รองรับการแสดงผลหน้านี้" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="update" value="แก้ไข">
+    </phrase>
+    <phrase id="updatebtn" value="แก้ไข" client="1">
+    </phrase>
+    <!-- v2017 -->
+    <phrase id="updatecancelled" value="ยกเลิกการแก้ไขเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="updatefailed" value="การแก้ไขผิดพลาด">
+    </phrase>
+    <phrase id="updatelink" value="แก้ไข" class="fas fa-check ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="updateselectedlink" value="แก้ไขรายการที่เลือก" class="icon-edit ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="updatesomerecordsfailed" value="Update failed for records with keys: %k">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="updatesuccess" value="แก้ไขเรียบร้อยแล้ว">
+    </phrase>
+    <phrase id="uploading" value="กำลังอัพโหลด..." client="1">
+    </phrase>
+    <phrase id="uploadstart" value="เริ่มอัพโหลด" client="1">
+    </phrase>
+    <phrase id="uploadcancel" value="ยกเลิกการอัพโหลด" client="1">
+    </phrase>
+    <phrase id="uploaddelete" value="ลบการอัพโหลด" client="1">
+    </phrase>
+    <phrase id="uploadoverwrite" value="อัพโหลดทับไฟล์เดิม" client="1">
+    </phrase>
+    <phrase id="uploaderrmsg1" value="ไฟล์ที่อัปโหลดเกินสั่ง upload_max_filesize ใน php.ini">
+    </phrase>
+    <phrase id="uploaderrmsg2" value="ไฟล์ที่อัปโหลดเกินสั่ง MAX_FILE_SIZE ที่ระบุในรูปแบบ HTML">
+    </phrase>
+    <phrase id="uploaderrmsg3" value="อัพโหลดไฟล์ถูกอัพโหลดเพียงบางส่วนเท่านั้น">
+    </phrase>
+    <phrase id="uploaderrmsg4" value="ไม่มีไฟล์อัพโหลด">
+    </phrase>
+    <phrase id="uploaderrmsg6" value="ไม่พบ temporary folder">
+    </phrase>
+    <phrase id="uploaderrmsg7" value="ไม่สามารถเขียนไฟล์ไปยังดิสก์">
+    </phrase>
+    <phrase id="uploaderrmsg8" value="A PHP extension หยุดการอัพโหลด">
+    </phrase>
+    <phrase id="uploaderrmsgpostmaxsize" value="อัพโหลดผิดพลาด ส่งข้อมูลได้สูงสุด">
+    </phrase>
+    <phrase id="uploaderrmsgmaxfilesize" value="อัพโหลดผิดพลาด ขนาดไฟล์สูงสุด" client="1">
+    </phrase>
+    <phrase id="uploaderrmsgminfilesize" value="อัพโหลดผิดพลาด ขนาดไฟล์เล็กสุด" client="1">
+    </phrase>
+    <phrase id="uploaderrmsgacceptfiletypes" value="อัพโหลดผิดพลาด ประเภทไฟล์ที่อนุญาต" client="1">
+    </phrase>
+    <phrase id="uploaderrmsgmaxnumberoffiles" value="อัพโหลดผิดพลาด จำนวนไฟล์มากสุด" client="1">
+    </phrase>
+    <phrase id="uploaderrmsgmaxwidth" value="อัพโหลดผิดพลาด ความกว้างมากสุด">
+    </phrase>
+    <phrase id="uploaderrmsgminwidth" value="อัพโหลดผิดพลาด ความกว้างน้อยสุด">
+    </phrase>
+    <phrase id="uploaderrmsgmaxheight" value="อัพโหลดผิดพลาด ความสูงมากสุด">
+    </phrase>
+    <phrase id="uploaderrmsgminheight" value="อัพโหลดผิดพลาด ความสูงน้อยสุด">
+    </phrase>
+    <phrase id="uploaderrmsgmaxfilelength" value="ผลรวมของไฟล์ยาวเกินไป ไม่สามารถอัพโหลดได้" client="1">
+    </phrase>
+    <phrase id="useradministrator" value="Administrator" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="useranonymous" value="Anonymous" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="userdefault" value="Default" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="useremail" value="อีเมล">
+    </phrase>
+    <phrase id="userexists" value="มีผู้ใช้นี้อยู่แล้ว">
+    </phrase>
+    <phrase id="userlevel" value="ระดับผู้ใช้:">
+    </phrase>
+    <phrase id="userleveladministratorname" value="ชื่อระดับของผู้ใช้สำหรับระดับ" client="1">
+    </phrase>
+    <phrase id="userlevelanonymousname" value="ชื่อระดับผู้ใช้งานระดับผู้ใช้ -2 ต้องเป็น 'ไม่ประสงค์ออกนาม" client="1">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="userlevelpermission" value="ระดับการอนุญาตของผู้ใช้">
+    </phrase>
+    <phrase id="userlevelidinteger" value="รหัสระดับของผู้ใช้ต้องเป็นเลขจำนวนเต็ม" client="1">
+    </phrase>
+    <phrase id="userleveldefaultname" value="ชื่อระดับของผู้ใช้สำหรับระดับ 0 ต้องเป็น 'Default' เท่านั้น" client="1">
+    </phrase>
+    <phrase id="userlevelidincorrect" value="ขอบเขตของรหัสระดับผู้ใช้ต้องมากกว่า 0" client="1">
+    </phrase>
+    <phrase id="userlevelnameincorrect" value="ขอบเขตของชื่อระดับของผู้ใช้ต้องไม่ใช่ 'Administrator' หรือ 'Default'" client="1">
+    </phrase>
+    <phrase id="userloggedin" value="ผู้ใช้ '%u' กำลังอยู่ในระบบ ณ ขณะนี้">
+    </phrase>
+    <phrase id="username" value="ชื่อผู้ใช้" client="1">
+    </phrase>
+    <!-- v2021 -->
+    <phrase id="usernotfound" value="ไม่มีผู้ใช้ '%u'">
+    </phrase>
+    <!-- v2018 -->
+    <phrase id="userprofilecorrupted" value="โปรไฟล์ของผู้ใช้มีปัญหา กรุณาล็อกเอ้าท์และล็อกอินใหม่">
+    </phrase>
+    <phrase id="valuenotexist" value="ไม่มีข้อมูล" client="1">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="verify" value="Verify" client="1">
+    </phrase>
+    <!-- v2022 -->
+    <phrase id="view" value="เปิดดู">
+    </phrase>
+    <phrase id="viewimagegallery" value="เปิดดูรูปภาพ">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="viewlink" value="เปิดดู" class="icon-view ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="viewpageaddlink" value="เพิ่ม" class="fas fa-plus ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="viewpagecopylink" value="คัดลอก" class="icon-copy ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="viewpagedeletelink" value="ลบ" class="fas fa-trash ew-icon">
+    </phrase>
+    <!-- v2019 -->
+    <phrase id="viewpagedetaillink" value="รายละเอียด">
+    </phrase>
+    <phrase id="viewpageeditlink" value="แก้ไข" class="icon-edit ew-icon">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="warning" value="แจ้งเตือน" client="1">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="week" value="สัปดาห์">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="wrongfiletype" value="ไม่สามารถใช้ไฟล์ชนิดนี้ได้" client="1">
+    </phrase>
+    <phrase id="year" value="ปี">
+    </phrase>
+    <!-- v2020 -->
+    <phrase id="=" value="">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="equal" value="=">
+    </phrase>
+    <!-- v12 -->
+    <phrase id="&lt;&gt;" value="&lt;&gt;">
+    </phrase>
+    <phrase id="&lt;" value="&lt;">
+    </phrase>
+    <phrase id="&lt;=" value="&lt;=">
+    </phrase>
+    <phrase id="&gt;" value="&gt;">
+    </phrase>
+    <phrase id="&gt;=" value="&gt;=">
+    </phrase>
+    <phrase id="like" value="">
+    </phrase>
+    <phrase id="not like" value="ไม่ประกอบด้วย">
+    </phrase>
+    <!-- v11 -->
+    <phrase id="starts with" value="เริ่มต้นด้วย">
+    </phrase>
+    <phrase id="ends with" value="ลงท้ายด้วย">
+    </phrase>
+    <phrase id="is null" value="เป็นค่าว่าง">
+    </phrase>
+    <phrase id="is not null" value="ไม่เป็นค่าว่าง">
+    </phrase>
+    <phrase id="between" value="ระหว่าง">
+    </phrase>
+    <phrase id="and" value="และ">
+    </phrase>
+    <phrase id="or" value="หรือ">
+    </phrase>
+    <!-- Advanced Filter -->
+    <!-- v2020 -->
+    <phrase id="future" value="ต่อไป">
+    </phrase>
+    <phrase id="past" value="ย้อนหลัง">
+    </phrase>
+    <phrase id="last14days" value="14 วันที่ผ่านมา">
+    </phrase>
+    <phrase id="last30days" value="30 วันที่ผ่านมา">
+    </phrase>
+    <phrase id="last7days" value="7 วันที่ผ่านมา">
+    </phrase>
+    <phrase id="next14days" value="14 วันถัดไป">
+    </phrase>
+    <phrase id="next30days" value="30 วันถัดไป">
+    </phrase>
+    <phrase id="next7days" value="7 วันถัดไป">
+    </phrase>
+    <phrase id="today" value="วันนี้">
+    </phrase>
+    <phrase id="tomorrow" value="พรุ่งนี้">
+    </phrase>
+    <phrase id="yesterday" value="เมื่อวานนี้">
+    </phrase>
+    <phrase id="lastmonth" value="เดือนที่แล้ว">
+    </phrase>
+    <phrase id="nextmonth" value="เดือนถัดไป">
+    </phrase>
+    <phrase id="thismonth" value="เดือนนี้">
+    </phrase>
+    <phrase id="lasttwoweeks" value="2 สัปดาห์ที่ผ่านมา">
+    </phrase>
+    <phrase id="lastweek" value="สัปดาห์ที่ผ่านมา">
+    </phrase>
+    <phrase id="nexttwoweeks" value="2 สัปดาห์ถัดไป">
+    </phrase>
+    <phrase id="nextweek" value="สัปดาห์ถัดไป">
+    </phrase>
+    <phrase id="thisweek" value="สัปดาห์นี้">
+    </phrase>
+    <phrase id="lastyear" value="ปีที่ผ่านมา">
+    </phrase>
+    <phrase id="nextyear" value="ปีถัดไป">
+    </phrase>
+    <phrase id="thisyear" value="ปีนี้">
+    </phrase>
+    <!-- Exceptions -->
+    <!-- v2021 -->
+    <phrase id="400" value="Bad Request">
+    </phrase>
+    <phrase id="400desc" value="The server cannot or will not process the request due to an apparent client error.">
+    </phrase>
+    <phrase id="401" value="Unauthorized">
+    </phrase>
+    <phrase id="401desc" value="The request requires valid user authentication.">
+    </phrase>
+    <phrase id="403" value="Forbidden">
+    </phrase>
+    <phrase id="403desc" value="You are not permitted to perform the requested operation.">
+    </phrase>
+    <phrase id="404" value="Not Found">
+    </phrase>
+    <phrase id="404desc" value="The requested resource could not be found. Please verify the URI and try again.">
+    </phrase>
+    <phrase id="405" value="Method Not Allowed">
+    </phrase>
+    <phrase id="405desc" value="The request method is not supported for the requested resource.">
+    </phrase>
+    <phrase id="500" value="Internal Server Error">
+    </phrase>
+    <phrase id="500desc" value="Unexpected condition encountered preventing server from fulfilling request.">
+    </phrase>
+    <phrase id="501" value="Not Implemented">
+    </phrase>
+    <phrase id="501desc" value="The server does not support the functionality required to fulfill the request.">
+    </phrase>
+    <!-- Select2 -->
+    <!-- v2022 -->
+    <phrase id="errorloading" value="The results could not be loaded." client="1">
+    </phrase>
+    <phrase id="inputtoolong" value="Please delete %s character(s)" client="1">
+    </phrase>
+    <phrase id="inputtooshort" value="Please enter %s or more characters" client="1">
+    </phrase>
+    <phrase id="loadingmore" value="Loading more..." class="spinner-border spinner-border-sm text-primary" client="1">
+    </phrase>
+    <phrase id="maximumselected" value="You can only select %s item(s)" client="1">
+    </phrase>
+    <phrase id="noresults" value="No results found" client="1">
+    </phrase>
+    <phrase id="searching" value="Searching..." class="spinner-border spinner-border-sm text-primary" client="1">
+    </phrase>
+    <phrase id="removeallitems" value="Remove all items" client="1">
+    </phrase>
+    <phrase id="removeitem" value="Remove item" client="1">
+    </phrase>
+  </global>
+  <project>
+    <phrase id="footertext" value="&lt;a href=&quot;https://lin.ee/e5k0y98&quot; class=&quot;btn&quot; role=&quot;button&quot; aria-label=&quot;Line&quot; style=&quot;font-size: 45px;color: #07b53b;background-color: #fff0;padding: 0px;border: 0px;bottom: 0.05rem;line-height: 0.6&quot;&gt;&lt;i class=&quot;fab fa-line&quot; style=&quot;background-color: #fff;line-height: 0.6&quot;&gt;&lt;/i&gt;&lt;/a&gt;" />
+    <menu id="432">
+      <phrase id="menutext" value="Chapter Plan" />
+    </menu>
+    <menu id="387" />
+    <menu id="384">
+      <phrase id="menutext" value="Renewal Review" />
+    </menu>
+    <menu id="335">
+      <phrase id="menutext" value="จดหมายรัก" />
+    </menu>
+    <menu id="56">
+      <phrase id="menutext" value="สิทธิการใช้งาน" />
+    </menu>
+    <menu id="133">
+      <phrase id="menutext" value="คะแนน" />
+    </menu>
+    <menu id="50">
+      <phrase id="menutext" value="Weekly Traffic Light" />
+    </menu>
+    <menu id="1">
+      <phrase id="menutext" value="เพื่อนๆ" />
+    </menu>
+    <menu id="129">
+      <phrase id="menutext" value="ทีม" />
+    </menu>
+    <menu id="41">
+      <phrase id="menutext" value="ตารางคะแนน" />
+    </menu>
+    <menu id="431">
+      <phrase id="menutext" value="Weekly Traffic Light" />
+    </menu>
+    <menu id="291">
+      <phrase id="menutext" value="ยอดธุรกิจ" />
+    </menu>
+    <menu id="131">
+      <phrase id="menutext" value="เป้าหมาย" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="รายชื่อทีม" />
+    </menu>
+    <menu id="94">
+      <phrase id="menutext" value="สำหรับทีมบริหาร" />
+    </menu>
+    <menu id="383">
+      <phrase id="menutext" value="Chapter Goal" />
+    </menu>
+    <menu id="95">
+      <phrase id="menutext" value="ตารางผู้นำ" />
+    </menu>
+    <menu id="96">
+      <phrase id="menutext" value="การต่ออายุ" />
+    </menu>
+    <menu id="334">
+      <phrase id="menutext" value="จดหมายรัก" />
+    </menu>
+    <menu id="182">
+      <phrase id="menutext" value="BNI Support Training" />
+    </menu>
+    <menu id="233">
+      <phrase id="menutext" value="Secretary / Treasurer" />
+    </menu>
+    <menu id="297">
+      <phrase id="menutext" value="ขออนุญาตใช้ข้อมูล" />
+    </menu>
+    <menu id="333">
+      <phrase id="menutext" value="เครื่องมืออื่นๆ" />
+    </menu>
+    <menu id="298">
+      <phrase id="menutext" value="Presentation Timer" />
+    </menu>
+    <menu id="299">
+      <phrase id="menutext" value="Drawgift" />
+    </menu>
+    <menu id="429">
+      <phrase id="menutext" value="เกมสุ่มรายชื่อ" />
+    </menu>
+    <menu id="372">
+      <phrase id="menutext" value="Training Calendar" />
+    </menu>
+    <menu id="296">
+      <phrase id="menutext" value="ล๊อคอินในนาม" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="ระดับสิทธิการใช้งาน" />
+    </menu>
+    <menu id="285">
+      <phrase id="menutext" value="Growth Coordinator" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="Chapter" />
+    </menu>
+    <menu id="132">
+      <phrase id="menutext" value="ปี" />
+    </menu>
+    <menu id="34">
+      <phrase id="menutext" value="chapter name full" />
+    </menu>
+    <menu id="46">
+      <phrase id="menutext" value="member name" />
+    </menu>
+    <table id="chapter">
+      <phrase id="tblcaption" value="Chapter" />
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="region_id">
+        <phrase id="fldcaption" value="Region" />
+      </field>
+      <field id="chapter_name">
+        <phrase id="fldcaption" value="Chapter Name" />
+      </field>
+      <field id="enable">
+        <phrase id="fldcaption" value="Enable" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Yes" />
+      </field>
+      <field id="launch_date">
+        <phrase id="fldcaption" value="Launch Date" />
+      </field>
+      <field id="user_id">
+        <phrase id="fldcaption" value="User" />
+      </field>
+      <field id="need_update">
+        <phrase id="fldcaption" value="Need Update" />
+        <phrase id="fldtagvalue1" value="Yes" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="No" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="updated">
+        <phrase id="fldcaption" value="Updated" />
+      </field>
+      <field id="created">
+        <phrase id="fldcaption" value="Created" />
+      </field>
+      <field id="modified">
+        <phrase id="fldcaption" value="Modified" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+        <phrase id="fldtagvalue1" value="Active" />
+        <phrase id="fldtagcaption1" value="Active" />
+        <phrase id="fldtagvalue2" value="Suspended" />
+        <phrase id="fldtagcaption2" value="Suspended" />
+        <phrase id="fldtagvalue3" value="Core Groups" />
+        <phrase id="fldtagcaption3" value="Core Groups" />
+        <phrase id="fldtagvalue4" value="Dropped" />
+        <phrase id="fldtagcaption4" value="Dropped" />
+      </field>
+      <field id="notify_token">
+        <phrase id="fldcaption" value="Notify Token" />
+      </field>
+      <field id="notify_token_lt">
+        <phrase id="fldcaption" value="Notify Token LT" />
+      </field>
+      <field id="notify_token_sgdc">
+        <phrase id="fldcaption" value="Notify Token SGDC" />
+      </field>
+      <field id="member_traffic_light_link">
+        <phrase id="fldcaption" value="Member Traffic Light Link" />
+      </field>
+      <field id="goal_progress_link">
+        <phrase id="fldcaption" value="Goal Progress Link" />
+      </field>
+    </table>
+    <table id="chapter_login">
+      <phrase id="tblcaption" value="ล๊อคอินในนาม" />
+      <field id="chapter_name">
+        <phrase id="fldcaption" value="Chapter" />
+      </field>
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter" />
+      </field>
+      <field id="region_id">
+        <phrase id="fldcaption" value="Region ID" />
+      </field>
+      <field id="country_id">
+        <phrase id="fldcaption" value="Country ID" />
+      </field>
+      <field id="_username">
+        <phrase id="fldcaption" value="User Name" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="Member ID" />
+      </field>
+    </table>
+    <table id="chapter_name_full">
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter ID" />
+      </field>
+      <field id="chapter_name">
+        <phrase id="fldcaption" value="Chapter Name" />
+      </field>
+      <field id="country_name">
+        <phrase id="fldcaption" value="Country Name" />
+      </field>
+      <field id="region_name">
+        <phrase id="fldcaption" value="Region Name" />
+      </field>
+      <field id="region_id">
+        <phrase id="fldcaption" value="Region ID" />
+      </field>
+      <field id="country_id">
+        <phrase id="fldcaption" value="Country ID" />
+      </field>
+    </table>
+    <table id="controlletter">
+      <phrase id="tblcaption" value="จดหมายรัก" />
+    </table>
+    <table id="countdown">
+      <phrase id="tblcaption" value="Presentation Timer" />
+    </table>
+    <table id="current_traffic_light">
+      <phrase id="tblcaption" value="Weekly Traffic Light - Beta" />
+      <field id="power_team_id">
+        <phrase id="fldcaption" value="Power Team" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter" />
+      </field>
+      <field id="traffic_light_score">
+        <phrase id="fldcaption" value="TL" />
+      </field>
+      <field id="traffic_light_new_score">
+        <phrase id="fldcaption" value="N" />
+      </field>
+      <field id="traffic_light_old_score">
+        <phrase id="fldcaption" value="O" />
+      </field>
+      <field id="absent_score">
+        <phrase id="fldcaption" value="A" />
+      </field>
+      <field id="late_old_score">
+        <phrase id="fldcaption" value="L" />
+      </field>
+      <field id="rg_score">
+        <phrase id="fldcaption" value="R" />
+      </field>
+      <field id="rg_old_score">
+        <phrase id="fldcaption" value="R" />
+      </field>
+      <field id="tyfcb_score">
+        <phrase id="fldcaption" value="T" />
+      </field>
+      <field id="visitor_score">
+        <phrase id="fldcaption" value="V" />
+      </field>
+      <field id="visitor_old_score">
+        <phrase id="fldcaption" value="V" />
+      </field>
+      <field id="one_to_one_score">
+        <phrase id="fldcaption" value="1" />
+      </field>
+      <field id="one_to_one_old_score">
+        <phrase id="fldcaption" value="1" />
+      </field>
+      <field id="ceu_score">
+        <phrase id="fldcaption" value="C" />
+      </field>
+      <field id="green">
+        <phrase id="fldcaption" value="Green" />
+      </field>
+      <field id="yellow">
+        <phrase id="fldcaption" value="Yellow" />
+      </field>
+      <field id="traffic_light_color">
+        <phrase id="fldcaption" value="Traffic Light Color" />
+      </field>
+      <field id="red">
+        <phrase id="fldcaption" value="Red" />
+      </field>
+      <field id="black">
+        <phrase id="fldcaption" value="Black" />
+      </field>
+      <field id="membership_status">
+        <phrase id="fldcaption" value="Membership Status" />
+        <phrase id="fldtagvalue1" value="Active" />
+        <phrase id="fldtagcaption1" value="Active" />
+        <phrase id="fldtagvalue2" value="Dropped" />
+        <phrase id="fldtagcaption2" value="Dropped" />
+        <phrase id="fldtagvalue3" value="Late" />
+        <phrase id="fldtagcaption3" value="Late" />
+        <phrase id="fldtagvalue4" value="Expired" />
+        <phrase id="fldtagcaption4" value="Expired" />
+        <phrase id="fldtagvalue5" value="Pending Renewal" />
+        <phrase id="fldtagcaption5" value="Pending Renewal" />
+        <phrase id="fldtagvalue6" value="Void" />
+        <phrase id="fldtagcaption6" value="Void" />
+        <phrase id="fldtagvalue7" value="Suspended" />
+        <phrase id="fldtagcaption7" value="Suspended" />
+        <phrase id="fldtagvalue8" value="Pending Member" />
+        <phrase id="fldtagcaption8" value="Pending Member" />
+      </field>
+      <field id="weeks_existing_old">
+        <phrase id="fldcaption" value="Weeks Old" />
+      </field>
+      <field id="rg_old_score_max">
+        <phrase id="fldcaption" value="RG Old Score Max" />
+      </field>
+      <field id="visitor_old_score_max">
+        <phrase id="fldcaption" value="Visitor Old Score Max" />
+      </field>
+      <field id="one_to_one_old_score_max">
+        <phrase id="fldcaption" value="One to One Old Score Max" />
+      </field>
+      <field id="traffic_light_old_score_max">
+        <phrase id="fldcaption" value="Traffic Light Old Score Max" />
+      </field>
+      <field id="traffic_light_score_max">
+        <phrase id="fldcaption" value="Traffic Light Score Max" />
+      </field>
+      <field id="member_accepted">
+        <phrase id="fldcaption" value="Member Accepted" />
+      </field>
+      <field id="first_meeting_date">
+        <phrase id="fldcaption" value="First Meeting Date" />
+      </field>
+      <field id="last_meeting_date">
+        <phrase id="fldcaption" value="Last Meeting Date" />
+      </field>
+      <field id="first_new_traffic_light_date">
+        <phrase id="fldcaption" value="First New Traffic Light Date" />
+      </field>
+      <field id="first_traffic_light_date">
+        <phrase id="fldcaption" value="First Traffic Light Date" />
+      </field>
+      <field id="last_traffic_light_date">
+        <phrase id="fldcaption" value="Last Traffic Light Date" />
+      </field>
+      <field id="late_old_score_max">
+        <phrase id="fldcaption" value="Late Old Score Max" />
+      </field>
+      <field id="weeks_existing">
+        <phrase id="fldcaption" value="Weeks Existing" />
+      </field>
+      <field id="weeks_existing_new">
+        <phrase id="fldcaption" value="Weeks Existing New" />
+      </field>
+      <field id="traffic_light_old_color">
+        <phrase id="fldcaption" value="Traffic Light Old Color" />
+      </field>
+      <field id="traffic_light_new_color">
+        <phrase id="fldcaption" value="Traffic Light New Color" />
+      </field>
+      <field id="traffic_light_new_score_max">
+        <phrase id="fldcaption" value="Traffic Light New Score Max" />
+      </field>
+      <field id="absent_old">
+        <phrase id="fldcaption" value="Absent Old" />
+      </field>
+      <field id="late_old">
+        <phrase id="fldcaption" value="Late Old" />
+      </field>
+      <field id="rg_old">
+        <phrase id="fldcaption" value="RG Old" />
+      </field>
+      <field id="visitor_old">
+        <phrase id="fldcaption" value="Visitor Old" />
+      </field>
+      <field id="ceu_old">
+        <phrase id="fldcaption" value="CEU Old" />
+      </field>
+      <field id="one_to_one_old">
+        <phrase id="fldcaption" value="One to One Old" />
+      </field>
+      <field id="tyfcb_old">
+        <phrase id="fldcaption" value="TYFCB Old" />
+      </field>
+      <field id="rg_old_per_week">
+        <phrase id="fldcaption" value="RG Old per Week" />
+      </field>
+      <field id="visitor_old_per_week">
+        <phrase id="fldcaption" value="Visitor Old per Week" />
+      </field>
+      <field id="ceu_old_per_week">
+        <phrase id="fldcaption" value="CEU Old per Week" />
+      </field>
+      <field id="one_to_one_old_per_week">
+        <phrase id="fldcaption" value="One to One Old per Week" />
+      </field>
+      <field id="tyfcb_old_per_week">
+        <phrase id="fldcaption" value="TYFCB Old per Week" />
+      </field>
+      <field id="absent_old_score">
+        <phrase id="fldcaption" value="Absent Old Score" />
+      </field>
+      <field id="tyfcb_old_score">
+        <phrase id="fldcaption" value="TYFCB Old Score" />
+      </field>
+      <field id="ceu_old_score">
+        <phrase id="fldcaption" value="CEU Old Score" />
+      </field>
+      <field id="absent_old_score_max">
+        <phrase id="fldcaption" value="Absent Old Score Max" />
+      </field>
+      <field id="tyfcb_old_score_max">
+        <phrase id="fldcaption" value="TYFCB Old Score Max" />
+      </field>
+      <field id="ceu_old_score_max">
+        <phrase id="fldcaption" value="CEU Old Score Max" />
+      </field>
+      <field id="absent_new">
+        <phrase id="fldcaption" value="Absent New" />
+      </field>
+      <field id="rg_new">
+        <phrase id="fldcaption" value="RG New" />
+      </field>
+      <field id="visitor_new">
+        <phrase id="fldcaption" value="Visitor New" />
+      </field>
+      <field id="ceu_new">
+        <phrase id="fldcaption" value="CEU New" />
+      </field>
+      <field id="one_to_one_new">
+        <phrase id="fldcaption" value="One to One New" />
+      </field>
+      <field id="tyfcb_new">
+        <phrase id="fldcaption" value="TYFCB New" />
+      </field>
+      <field id="rg_new_per_week">
+        <phrase id="fldcaption" value="RG New per Week" />
+      </field>
+      <field id="visitor_new_per_week">
+        <phrase id="fldcaption" value="Visitor New per Week" />
+      </field>
+      <field id="ceu_new_per_week">
+        <phrase id="fldcaption" value="CEU New per Week" />
+      </field>
+      <field id="one_to_one_new_per_week">
+        <phrase id="fldcaption" value="One to One New per Week" />
+      </field>
+      <field id="tyfcb_new_per_week">
+        <phrase id="fldcaption" value="TYFCB New per Week" />
+      </field>
+      <field id="absent_new_score">
+        <phrase id="fldcaption" value="Absent New Score" />
+      </field>
+      <field id="rg_new_score">
+        <phrase id="fldcaption" value="RG New Score" />
+      </field>
+      <field id="tyfcb_new_score">
+        <phrase id="fldcaption" value="TYFCB New Score" />
+      </field>
+      <field id="visitor_new_score">
+        <phrase id="fldcaption" value="Visitor New Score" />
+      </field>
+      <field id="one_to_one_new_score">
+        <phrase id="fldcaption" value="One to One New Score" />
+      </field>
+      <field id="ceu_new_score">
+        <phrase id="fldcaption" value="CEU New Score" />
+      </field>
+      <field id="absent_new_score_max">
+        <phrase id="fldcaption" value="Absent New Score Max" />
+      </field>
+      <field id="rg_new_score_max">
+        <phrase id="fldcaption" value="RG New Score Max" />
+      </field>
+      <field id="visitor_new_score_max">
+        <phrase id="fldcaption" value="Visitor New Score Max" />
+      </field>
+      <field id="one_to_one_new_score_max">
+        <phrase id="fldcaption" value="One to One New Score Max" />
+      </field>
+      <field id="tyfcb_new_score_max">
+        <phrase id="fldcaption" value="TYFCB New Score Max" />
+      </field>
+      <field id="ceu_new_score_max">
+        <phrase id="fldcaption" value="CEU New Score Max" />
+      </field>
+      <field id="late_score">
+        <phrase id="fldcaption" value="Late Score" />
+      </field>
+    </table>
+    <table id="drawgift">
+      <phrase id="tblcaption" value="Drawgift" />
+    </table>
+    <table id="member">
+      <phrase id="tblcaption" value="เพื่อนๆ" />
+      <field id="member_id">
+        <phrase id="fldcaption" value="Member ID" />
+      </field>
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter" />
+      </field>
+      <field id="power_team_id">
+        <phrase id="fldcaption" value="ทีม" />
+      </field>
+      <field id="facebook_id">
+        <phrase id="fldcaption" value="สายรหัส" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="1" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="2" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="3" />
+        <phrase id="fldtagvalue4" value="4" />
+        <phrase id="fldtagcaption4" value="4" />
+        <phrase id="fldtagvalue5" value="5" />
+        <phrase id="fldtagcaption5" value="5" />
+        <phrase id="fldtagvalue6" value="6" />
+        <phrase id="fldtagcaption6" value="6" />
+        <phrase id="fldtagvalue7" value="7" />
+        <phrase id="fldtagcaption7" value="7" />
+        <phrase id="fldtagvalue8" value="8" />
+        <phrase id="fldtagcaption8" value="8" />
+        <phrase id="fldtagvalue9" value="9" />
+        <phrase id="fldtagcaption9" value="9" />
+        <phrase id="fldtagvalue10" value="10" />
+        <phrase id="fldtagcaption10" value="10" />
+        <phrase id="fldtagvalue11" value="11" />
+        <phrase id="fldtagcaption11" value="11" />
+        <phrase id="fldtagvalue12" value="12" />
+        <phrase id="fldtagcaption12" value="12" />
+      </field>
+      <field id="line_id">
+        <phrase id="fldcaption" value="Line ID" />
+      </field>
+      <field id="line_picture_url">
+        <phrase id="fldcaption" value="Line Picture URL" />
+      </field>
+      <field id="line_status_message">
+        <phrase id="fldcaption" value="Line Status Message" />
+      </field>
+      <field id="nick_name">
+        <phrase id="fldcaption" value="ชื่อที่เล่นที่ไม่ระบุตัวตน" />
+      </field>
+      <field id="first_name">
+        <phrase id="fldcaption" value="First Name" />
+      </field>
+      <field id="second_name">
+        <phrase id="fldcaption" value="Last Name" />
+      </field>
+      <field id="member_name">
+        <phrase id="fldcaption" value="ชื่อ" />
+      </field>
+      <field id="member_full_name">
+        <phrase id="fldcaption" value="ชื่อ (อังกฤษ)" />
+      </field>
+      <field id="first_name_local">
+        <phrase id="fldcaption" value="ชื่อ" />
+      </field>
+      <field id="second_name_local">
+        <phrase id="fldcaption" value="นามสกุล" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="อีเมล" />
+      </field>
+      <field id="image">
+        <phrase id="fldcaption" value="Image" />
+      </field>
+      <field id="date_of_birth">
+        <phrase id="fldcaption" value="วันเกิด" />
+      </field>
+      <field id="profession_scope">
+        <phrase id="fldcaption" value="สโคปอาชีพ" />
+      </field>
+      <field id="created">
+        <phrase id="fldcaption" value="Created" />
+      </field>
+      <field id="modified">
+        <phrase id="fldcaption" value="Created" />
+      </field>
+      <field id="_title">
+        <phrase id="fldcaption" value="Title" />
+      </field>
+      <field id="suffix">
+        <phrase id="fldcaption" value="Suffix" />
+      </field>
+      <field id="display_name">
+        <phrase id="fldcaption" value="Display Name" />
+      </field>
+      <field id="gender">
+        <phrase id="fldcaption" value="Gender" />
+      </field>
+      <field id="company_name">
+        <phrase id="fldcaption" value="Company Name" />
+      </field>
+      <field id="user_level_id">
+        <phrase id="fldcaption" value="Level" />
+        <phrase id="fldtagvalue1" value="-2" />
+        <phrase id="fldtagcaption1" value="Anonymous" />
+        <phrase id="fldtagvalue2" value="-1" />
+        <phrase id="fldtagcaption2" value="Administrator" />
+        <phrase id="fldtagvalue3" value="0" />
+        <phrase id="fldtagcaption3" value="Default" />
+        <phrase id="fldtagvalue4" value="1" />
+        <phrase id="fldtagcaption4" value="Member" />
+      </field>
+      <field id="product_service_description">
+        <phrase id="fldcaption" value="Product Service Description" />
+      </field>
+      <field id="registered_tax_office">
+        <phrase id="fldcaption" value="Registered Tax Office" />
+      </field>
+      <field id="vat_reference_number">
+        <phrase id="fldcaption" value="VAT Reference Number" />
+      </field>
+      <field id="primary_category">
+        <phrase id="fldcaption" value="Primary Category" />
+      </field>
+      <field id="secondary_category">
+        <phrase id="fldcaption" value="Secondary Category" />
+      </field>
+      <field id="chapter">
+        <phrase id="fldcaption" value="Chapter" />
+      </field>
+      <field id="membership_due_date">
+        <phrase id="fldcaption" value="Membership Due Date" />
+      </field>
+      <field id="membership_status">
+        <phrase id="fldcaption" value="Membership Status" />
+        <phrase id="fldtagvalue1" value="Active" />
+        <phrase id="fldtagcaption1" value="Active" />
+        <phrase id="fldtagvalue2" value="Dropped" />
+        <phrase id="fldtagcaption2" value="Dropped" />
+        <phrase id="fldtagvalue3" value="Late" />
+        <phrase id="fldtagcaption3" value="Late" />
+        <phrase id="fldtagvalue4" value="Expired" />
+        <phrase id="fldtagcaption4" value="Expired" />
+        <phrase id="fldtagvalue5" value="Pending Renewal" />
+        <phrase id="fldtagcaption5" value="Pending Renewal" />
+        <phrase id="fldtagvalue6" value="Void" />
+        <phrase id="fldtagcaption6" value="Void" />
+        <phrase id="fldtagvalue7" value="Suspended" />
+        <phrase id="fldtagcaption7" value="Suspended" />
+        <phrase id="fldtagvalue8" value="Pending Member" />
+        <phrase id="fldtagcaption8" value="Pending Member" />
+      </field>
+      <field id="personal_statement_memory_hook">
+        <phrase id="fldcaption" value="Personal Statement Memory Hook" />
+      </field>
+      <field id="keywords">
+        <phrase id="fldcaption" value="Keywords" />
+      </field>
+      <field id="_username">
+        <phrase id="fldcaption" value="Username" />
+      </field>
+      <field id="bni_password">
+        <phrase id="fldcaption" value="Password" />
+      </field>
+      <field id="facebook_email">
+        <phrase id="fldcaption" value="Facebook Email" />
+      </field>
+      <field id="question">
+        <phrase id="fldcaption" value="Question" />
+      </field>
+      <field id="answer">
+        <phrase id="fldcaption" value="Answer" />
+      </field>
+      <field id="profile_image">
+        <phrase id="fldcaption" value="Profile Image" />
+      </field>
+      <field id="company_logo">
+        <phrase id="fldcaption" value="Company Logo" />
+      </field>
+      <field id="_language">
+        <phrase id="fldcaption" value="Language" />
+      </field>
+      <field id="phone">
+        <phrase id="fldcaption" value="Phone" />
+      </field>
+      <field id="phone_number">
+        <phrase id="fldcaption" value="Phone Number" />
+      </field>
+      <field id="mobile_number">
+        <phrase id="fldcaption" value="Mobile Number" />
+      </field>
+      <field id="direct_number">
+        <phrase id="fldcaption" value="Direct Number" />
+      </field>
+      <field id="alternate_phone_number">
+        <phrase id="fldcaption" value="Alternate Phone Number" />
+      </field>
+      <field id="pager_number">
+        <phrase id="fldcaption" value="Pager Number" />
+      </field>
+      <field id="voice_mail_number">
+        <phrase id="fldcaption" value="Voice Mail Number" />
+      </field>
+      <field id="toll_free_number">
+        <phrase id="fldcaption" value="Toll Free Number" />
+      </field>
+      <field id="fax">
+        <phrase id="fldcaption" value="Fax" />
+      </field>
+      <field id="website">
+        <phrase id="fldcaption" value="Website" />
+      </field>
+      <field id="social_networking_links">
+        <phrase id="fldcaption" value="Social Networking Links" />
+      </field>
+      <field id="address_line_1">
+        <phrase id="fldcaption" value="Address Line 1" />
+      </field>
+      <field id="address_line_2">
+        <phrase id="fldcaption" value="Address Line 2" />
+      </field>
+      <field id="city">
+        <phrase id="fldcaption" value="City" />
+      </field>
+      <field id="state">
+        <phrase id="fldcaption" value="State" />
+      </field>
+      <field id="country">
+        <phrase id="fldcaption" value="Country" />
+      </field>
+      <field id="zip_code">
+        <phrase id="fldcaption" value="ZIP Code" />
+      </field>
+      <field id="billing_address_line_1">
+        <phrase id="fldcaption" value="Billing Address Line 1" />
+      </field>
+      <field id="billing_address_line_2">
+        <phrase id="fldcaption" value="Billing Address Line 2" />
+      </field>
+      <field id="billing_city">
+        <phrase id="fldcaption" value="Billing City" />
+      </field>
+      <field id="billing_state">
+        <phrase id="fldcaption" value="Billing State" />
+      </field>
+      <field id="billing_country">
+        <phrase id="fldcaption" value="Billing Country" />
+      </field>
+      <field id="billing_zip_code">
+        <phrase id="fldcaption" value="Billing Zip Code" />
+      </field>
+      <field id="show_email">
+        <phrase id="fldcaption" value="Show Email" />
+      </field>
+      <field id="show_address">
+        <phrase id="fldcaption" value="Show Address" />
+      </field>
+      <field id="forward_mail_recieve">
+        <phrase id="fldcaption" value="Forward Mail Recieve" />
+      </field>
+      <field id="forward_mail_sent">
+        <phrase id="fldcaption" value="Forward Mail Sent" />
+      </field>
+      <field id="notification_email_address">
+        <phrase id="fldcaption" value="Notification Email Address" />
+      </field>
+      <field id="opt_out_of_optional_emails">
+        <phrase id="fldcaption" value="Opt Out Of Optional Emails" />
+      </field>
+      <field id="notification_email_preference">
+        <phrase id="fldcaption" value="Notification Email Preference" />
+      </field>
+      <field id="working_on">
+        <phrase id="fldcaption" value="Working On" />
+      </field>
+      <field id="years_in_business">
+        <phrase id="fldcaption" value="Years In Business" />
+      </field>
+      <field id="previous_jobs">
+        <phrase id="fldcaption" value="Previous Jobs" />
+      </field>
+      <field id="spouse">
+        <phrase id="fldcaption" value="Spouse" />
+      </field>
+      <field id="children">
+        <phrase id="fldcaption" value="Children" />
+      </field>
+      <field id="pets">
+        <phrase id="fldcaption" value="Pets" />
+      </field>
+      <field id="hobbies_interests">
+        <phrase id="fldcaption" value="Hobbies Interests" />
+      </field>
+      <field id="position">
+        <phrase id="fldcaption" value="Position" />
+      </field>
+      <field id="city_years">
+        <phrase id="fldcaption" value="City Years" />
+      </field>
+      <field id="desire">
+        <phrase id="fldcaption" value="Desire" />
+      </field>
+      <field id="something_no_one_here_knows_about_me">
+        <phrase id="fldcaption" value="Something No One Here Knows About Me" />
+      </field>
+      <field id="key_to_success">
+        <phrase id="fldcaption" value="Key To Success" />
+      </field>
+      <field id="commercial_1">
+        <phrase id="fldcaption" value="Commercial 1" />
+      </field>
+      <field id="commercial_2">
+        <phrase id="fldcaption" value="Commercial 2" />
+      </field>
+      <field id="goals">
+        <phrase id="fldcaption" value="Goals" />
+      </field>
+      <field id="accomplishments">
+        <phrase id="fldcaption" value="Accomplishments" />
+      </field>
+      <field id="interests">
+        <phrase id="fldcaption" value="Interests" />
+      </field>
+      <field id="networks">
+        <phrase id="fldcaption" value="Networks" />
+      </field>
+      <field id="skills">
+        <phrase id="fldcaption" value="Skills" />
+      </field>
+      <field id="ideal_referral">
+        <phrase id="fldcaption" value="Looking For" />
+      </field>
+      <field id="top_product">
+        <phrase id="fldcaption" value="Top Product" />
+      </field>
+      <field id="top_problem_solved">
+        <phrase id="fldcaption" value="Top Problem Solved" />
+      </field>
+      <field id="my_favorite_bni_story">
+        <phrase id="fldcaption" value="My Favorite BNI Story" />
+      </field>
+      <field id="my_ideal_referral_partner">
+        <phrase id="fldcaption" value="My Ideal Referral Partner" />
+      </field>
+      <field id="region">
+        <phrase id="fldcaption" value="Region" />
+      </field>
+      <field id="sponsor">
+        <phrase id="fldcaption" value="Sponsor" />
+      </field>
+      <field id="current_status">
+        <phrase id="fldcaption" value="Current Status" />
+      </field>
+      <field id="application_date">
+        <phrase id="fldcaption" value="Application Date" />
+      </field>
+      <field id="induction_date">
+        <phrase id="fldcaption" value="Induction Date" />
+      </field>
+      <field id="membership_start_date">
+        <phrase id="fldcaption" value="Membership Start Date" />
+      </field>
+      <field id="roles">
+        <phrase id="fldcaption" value="Roles" />
+      </field>
+      <field id="term_plus_month">
+        <phrase id="fldcaption" value="Term Plus Month" />
+      </field>
+      <field id="need_update">
+        <phrase id="fldcaption" value="Need Update" />
+        <phrase id="fldtagvalue1" value="Yes" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="No" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="membership_end_date">
+        <phrase id="fldcaption" value="Membership End Date" />
+      </field>
+      <field id="giver_level_id">
+        <phrase id="fldcaption" value="Giver Level ID" />
+      </field>
+      <field id="paypal_subscription_id">
+        <phrase id="fldcaption" value="Paypal Subscription ID" />
+      </field>
+      <field id="slip_synced">
+        <phrase id="fldcaption" value="Slip Synced" />
+      </field>
+      <field id="line_user_id">
+        <phrase id="fldcaption" value="Line User ID" />
+      </field>
+    </table>
+    <table id="member_goal">
+      <phrase id="tblcaption" value="เป้าหมาย" />
+      <phrase id="tblpagecaption1" value="เป้าหมายยอดธุรกิจ" />
+      <phrase id="tblpagecaption2" value="เป้าหมายอื่นๆ" />
+      <field id="year">
+        <phrase id="fldcaption" value="Year" />
+        <phrase id="fldtagvalue1" value="2018" />
+        <phrase id="fldtagcaption1" value="2018" />
+        <phrase id="fldtagvalue2" value="2019" />
+        <phrase id="fldtagcaption2" value="2019" />
+      </field>
+      <field id="power_team_id">
+        <phrase id="fldcaption" value="Team" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="Friend" />
+      </field>
+      <field id="business_goal">
+        <phrase id="fldcaption" value="Business Goal" />
+      </field>
+      <field id="bni_goal">
+        <phrase id="fldcaption" value="Goal" />
+      </field>
+      <field id="existing_customer">
+        <phrase id="fldcaption" value="Existing" />
+      </field>
+      <field id="new_customer">
+        <phrase id="fldcaption" value="New Customer" />
+      </field>
+      <field id="thank_you_per_referral">
+        <phrase id="fldcaption" value="Revenue / Referral" />
+      </field>
+      <field id="percent_of_closing">
+        <phrase id="fldcaption" value="Percent of Closing" />
+        <phrase id="flderrmsg" value="Please enter percent between 0.01 - 0.99" />
+        <phrase id="fldtagvalue1" value="0.1000" />
+        <phrase id="fldtagcaption1" value="10%" />
+        <phrase id="fldtagvalue2" value="0.2000" />
+        <phrase id="fldtagcaption2" value="20 %" />
+        <phrase id="fldtagvalue3" value="0.3000" />
+        <phrase id="fldtagcaption3" value="30 %" />
+        <phrase id="fldtagvalue4" value="0.4000" />
+        <phrase id="fldtagcaption4" value="40 %" />
+        <phrase id="fldtagvalue5" value="0.5000" />
+        <phrase id="fldtagcaption5" value="50 %" />
+        <phrase id="fldtagvalue6" value="0.6000" />
+        <phrase id="fldtagcaption6" value="60 %" />
+        <phrase id="fldtagvalue7" value="0.7000" />
+        <phrase id="fldtagcaption7" value="70 %" />
+        <phrase id="fldtagvalue8" value="0.8000" />
+        <phrase id="fldtagcaption8" value="80 %" />
+        <phrase id="fldtagvalue9" value="0.9000" />
+        <phrase id="fldtagcaption9" value="90 %" />
+        <phrase id="fldtagvalue10" value="1.0000" />
+        <phrase id="fldtagcaption10" value="100%" />
+      </field>
+      <field id="customer_needed">
+        <phrase id="fldcaption" value="Customer Needed" />
+      </field>
+      <field id="referral_needed">
+        <phrase id="fldcaption" value="Ref Needed" />
+      </field>
+      <field id="referral_per_week">
+        <phrase id="fldcaption" value="Ref/Wk" />
+      </field>
+      <field id="one_to_one_goal">
+        <phrase id="fldcaption" value="1-2-1" />
+      </field>
+      <field id="personal_goal">
+        <phrase id="fldcaption" value="Personal Goal" />
+      </field>
+      <field id="lcd">
+        <phrase id="fldcaption" value="LCD" />
+      </field>
+      <field id="looking_for">
+        <phrase id="fldcaption" value="Looking for" />
+      </field>
+      <field id="contact_sphere">
+        <phrase id="fldcaption" value="Contact Sphere" />
+      </field>
+      <field id="sunshine_concept">
+        <phrase id="fldcaption" value="Sunshine Concept" />
+      </field>
+      <field id="remark">
+        <phrase id="fldcaption" value="Remark" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="created">
+        <phrase id="fldcaption" value="Created" />
+      </field>
+      <field id="modified">
+        <phrase id="fldcaption" value="Modified" />
+      </field>
+      <field id="has_goal">
+        <phrase id="fldcaption" value="Has Goal" />
+      </field>
+    </table>
+    <table id="member_goal_progression">
+      <phrase id="tblcaption" value="ยอดธุรกิจ" />
+      <field id="year">
+        <phrase id="fldcaption" value="ปี" />
+      </field>
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter" />
+      </field>
+      <field id="power_team_id">
+        <phrase id="fldcaption" value="ทีม" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="Member" />
+      </field>
+      <field id="weeks">
+        <phrase id="fldcaption" value="Weeks" />
+      </field>
+      <field id="revenue_goal">
+        <phrase id="fldcaption" value="Revenue Goal" />
+      </field>
+      <field id="revenue_received_percent">
+        <phrase id="fldcaption" value="Received" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="0%" />
+        <phrase id="fldtagvalue2" value="0.25" />
+        <phrase id="fldtagcaption2" value="25%" />
+        <phrase id="fldtagvalue3" value="0.5" />
+        <phrase id="fldtagcaption3" value="50%" />
+        <phrase id="fldtagvalue4" value="0.75" />
+        <phrase id="fldtagcaption4" value="75%" />
+        <phrase id="fldtagvalue5" value="1" />
+        <phrase id="fldtagcaption5" value="100%" />
+        <phrase id="fldtagvalue6" value="999999" />
+        <phrase id="fldtagcaption6" value="999%" />
+      </field>
+      <field id="revenue_received">
+        <phrase id="fldcaption" value="Revenue Received" />
+      </field>
+      <field id="revenue_received_regression_percent">
+        <phrase id="fldcaption" value="Forecast" />
+      </field>
+      <field id="referral_goal">
+        <phrase id="fldcaption" value="Referral Goal" />
+      </field>
+      <field id="referral_received">
+        <phrase id="fldcaption" value="Forecast" />
+      </field>
+      <field id="referral_received_percent">
+        <phrase id="fldcaption" value="Referral" />
+      </field>
+      <field id="revenue_received_percent_search">
+        <phrase id="fldcaption" value="ได้ยอดธุรกิจ" />
+        <phrase id="fldtagvalue1" value="0.25" />
+        <phrase id="fldtagcaption1" value="25%" />
+        <phrase id="fldtagvalue2" value="0.5" />
+        <phrase id="fldtagcaption2" value="50%" />
+        <phrase id="fldtagvalue3" value="0.75" />
+        <phrase id="fldtagcaption3" value="75%" />
+        <phrase id="fldtagvalue4" value="1" />
+        <phrase id="fldtagcaption4" value="100%" />
+      </field>
+      <field id="revenue_given">
+        <phrase id="fldcaption" value="Revenue Given" />
+      </field>
+      <field id="revenue_given_percent">
+        <phrase id="fldcaption" value="Given" />
+      </field>
+    </table>
+    <table id="member_name">
+      <field id="member_name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="Member ID" />
+      </field>
+      <field id="member_full_name">
+        <phrase id="fldcaption" value="Member Full Name" />
+      </field>
+      <field id="membership_status">
+        <phrase id="fldcaption" value="Membership Status" />
+        <phrase id="fldtagvalue1" value="Active" />
+        <phrase id="fldtagcaption1" value="Active" />
+        <phrase id="fldtagvalue2" value="Dropped" />
+        <phrase id="fldtagcaption2" value="Dropped" />
+        <phrase id="fldtagvalue3" value="Late" />
+        <phrase id="fldtagcaption3" value="Late" />
+        <phrase id="fldtagvalue4" value="Expired" />
+        <phrase id="fldtagcaption4" value="Expired" />
+        <phrase id="fldtagvalue5" value="Pending Renewal" />
+        <phrase id="fldtagcaption5" value="Pending Renewal" />
+        <phrase id="fldtagvalue6" value="Void" />
+        <phrase id="fldtagcaption6" value="Void" />
+        <phrase id="fldtagvalue7" value="Suspended" />
+        <phrase id="fldtagcaption7" value="Suspended" />
+        <phrase id="fldtagvalue8" value="Pending Member" />
+        <phrase id="fldtagcaption8" value="Pending Member" />
+      </field>
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter ID" />
+      </field>
+      <field id="country_id">
+        <phrase id="fldcaption" value="Country ID" />
+      </field>
+      <field id="region_id">
+        <phrase id="fldcaption" value="Region ID" />
+      </field>
+      <field id="power_team_id">
+        <phrase id="fldcaption" value="Team" />
+      </field>
+      <field id="member_unblind_name">
+        <phrase id="fldcaption" value="Member Unblind Name" />
+      </field>
+      <field id="member_unblind_full_name">
+        <phrase id="fldcaption" value="Member Unblind Full Name" />
+      </field>
+    </table>
+    <table id="member_need_log_in">
+      <phrase id="tblcaption" value="ขออนุญาตใช้ข้อมูล" />
+      <field id="power_team_id">
+        <phrase id="fldcaption" value="Power Team" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="Member" />
+      </field>
+      <field id="country_id">
+        <phrase id="fldcaption" value="Country ID" />
+      </field>
+      <field id="region_id">
+        <phrase id="fldcaption" value="Region ID" />
+      </field>
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter ID" />
+      </field>
+      <field id="_username">
+        <phrase id="fldcaption" value="Username" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="Email" />
+      </field>
+      <field id="never_sign_in">
+        <phrase id="fldcaption" value="Never Sign In" />
+      </field>
+    </table>
+    <table id="monthly_member_traffic_light">
+      <phrase id="tblcaption" value="คะแนน" />
+      <field id="meeting_id">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="meeting">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="meeting_date">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="ชื่อ" />
+      </field>
+      <field id="palms">
+        <phrase id="fldcaption" value="P" />
+        <phrase id="fldtagvalue1" value="P" />
+        <phrase id="fldtagcaption1" value="P" />
+        <phrase id="fldtagvalue2" value="A" />
+        <phrase id="fldtagcaption2" value="A" />
+        <phrase id="fldtagvalue3" value="L" />
+        <phrase id="fldtagcaption3" value="L" />
+        <phrase id="fldtagvalue4" value="M" />
+        <phrase id="fldtagcaption4" value="M" />
+        <phrase id="fldtagvalue5" value="S" />
+        <phrase id="fldtagcaption5" value="S" />
+      </field>
+      <field id="absent">
+        <phrase id="fldcaption" value="A" />
+      </field>
+      <field id="late">
+        <phrase id="fldcaption" value="L" />
+      </field>
+      <field id="rg_per_week">
+        <phrase id="fldcaption" value="R" />
+      </field>
+      <field id="tyfcb_per_week">
+        <phrase id="fldcaption" value="TYFCB" />
+      </field>
+      <field id="visitor_per_week">
+        <phrase id="fldcaption" value="V" />
+      </field>
+      <field id="one_to_one_per_week">
+        <phrase id="fldcaption" value="1" />
+      </field>
+      <field id="ceu_per_week">
+        <phrase id="fldcaption" value="C" />
+      </field>
+    </table>
+    <table id="monthly_traffic_light">
+      <phrase id="tblcaption" value="ตารางคะแนน" />
+      <field id="power_team_id">
+        <phrase id="fldcaption" value="ทีม" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter" />
+      </field>
+      <field id="weeks_existing">
+        <phrase id="fldcaption" value="Wks" />
+      </field>
+      <field id="traffic_light_score">
+        <phrase id="fldcaption" value="TL" />
+      </field>
+      <field id="traffic_light_new_score">
+        <phrase id="fldcaption" value="TL" />
+      </field>
+      <field id="traffic_light_old_score">
+        <phrase id="fldcaption" value="O" />
+      </field>
+      <field id="absent_score">
+        <phrase id="fldcaption" value="A" />
+      </field>
+      <field id="late_old_score">
+        <phrase id="fldcaption" value="L" />
+      </field>
+      <field id="rg_score">
+        <phrase id="fldcaption" value="R" />
+      </field>
+      <field id="rg_old_score">
+        <phrase id="fldcaption" value="R" />
+      </field>
+      <field id="tyfcb_score">
+        <phrase id="fldcaption" value="T" />
+      </field>
+      <field id="visitor_score">
+        <phrase id="fldcaption" value="V" />
+      </field>
+      <field id="visitor_old_score">
+        <phrase id="fldcaption" value="V" />
+      </field>
+      <field id="one_to_one_score">
+        <phrase id="fldcaption" value="1" />
+      </field>
+      <field id="one_to_one_old_score">
+        <phrase id="fldcaption" value="1" />
+      </field>
+      <field id="ceu_score">
+        <phrase id="fldcaption" value="C" />
+      </field>
+      <field id="green">
+        <phrase id="fldcaption" value="Green" />
+      </field>
+      <field id="yellow">
+        <phrase id="fldcaption" value="Yellow" />
+      </field>
+      <field id="traffic_light_color">
+        <phrase id="fldcaption" value="Traffic Light Color" />
+      </field>
+      <field id="red">
+        <phrase id="fldcaption" value="Red" />
+      </field>
+      <field id="black">
+        <phrase id="fldcaption" value="Black" />
+      </field>
+      <field id="membership_status">
+        <phrase id="fldcaption" value="Membership Status" />
+        <phrase id="fldtagvalue1" value="Active" />
+        <phrase id="fldtagcaption1" value="Active" />
+        <phrase id="fldtagvalue2" value="Dropped" />
+        <phrase id="fldtagcaption2" value="Dropped" />
+        <phrase id="fldtagvalue3" value="Late" />
+        <phrase id="fldtagcaption3" value="Late" />
+        <phrase id="fldtagvalue4" value="Expired" />
+        <phrase id="fldtagcaption4" value="Expired" />
+        <phrase id="fldtagvalue5" value="Pending Renewal" />
+        <phrase id="fldtagcaption5" value="Pending Renewal" />
+        <phrase id="fldtagvalue6" value="Void" />
+        <phrase id="fldtagcaption6" value="Void" />
+        <phrase id="fldtagvalue7" value="Suspended" />
+        <phrase id="fldtagcaption7" value="Suspended" />
+        <phrase id="fldtagvalue8" value="Pending Member" />
+        <phrase id="fldtagcaption8" value="Pending Member" />
+      </field>
+      <field id="rg_old_score_max">
+        <phrase id="fldcaption" value="RG Old Score Max" />
+      </field>
+      <field id="visitor_old_score_max">
+        <phrase id="fldcaption" value="Visitor Old Score Max" />
+      </field>
+      <field id="one_to_one_old_score_max">
+        <phrase id="fldcaption" value="One to One Old Score Max" />
+      </field>
+      <field id="traffic_light_old_score_max">
+        <phrase id="fldcaption" value="Traffic Light Old Score Max" />
+      </field>
+      <field id="traffic_light_score_max">
+        <phrase id="fldcaption" value="Traffic Light Score Max" />
+      </field>
+      <field id="member_accepted">
+        <phrase id="fldcaption" value="Member Accepted" />
+      </field>
+      <field id="last_meeting_date">
+        <phrase id="fldcaption" value="Last Meeting Date" />
+      </field>
+      <field id="last_traffic_light_date">
+        <phrase id="fldcaption" value="Last Traffic Light Date" />
+      </field>
+      <field id="weeks_existing_old">
+        <phrase id="fldcaption" value="Weeks Existing Old" />
+      </field>
+      <field id="weeks_existing_new">
+        <phrase id="fldcaption" value="Weeks Existing New" />
+      </field>
+      <field id="weeks_left">
+        <phrase id="fldcaption" value="Weeks Left" />
+      </field>
+      <field id="traffic_light_weeks">
+        <phrase id="fldcaption" value="Traffic Light Weeks" />
+      </field>
+      <field id="first_meeting_date">
+        <phrase id="fldcaption" value="First Meeting Date" />
+      </field>
+      <field id="first_traffic_light_date">
+        <phrase id="fldcaption" value="First Traffic Light Date" />
+      </field>
+      <field id="first_new_traffic_light_date">
+        <phrase id="fldcaption" value="First New Traffic Light Date" />
+      </field>
+      <field id="late_old_score_max">
+        <phrase id="fldcaption" value="Late Old Score Max" />
+      </field>
+      <field id="traffic_light_new_score_max">
+        <phrase id="fldcaption" value="Traffic Light New Score Max" />
+      </field>
+      <field id="traffic_light_old_color">
+        <phrase id="fldcaption" value="Traffic Light Old Color" />
+      </field>
+      <field id="traffic_light_new_color">
+        <phrase id="fldcaption" value="Traffic Light New Color" />
+      </field>
+      <field id="absent_old">
+        <phrase id="fldcaption" value="Absent Old" />
+      </field>
+      <field id="late_old">
+        <phrase id="fldcaption" value="Late Old" />
+      </field>
+      <field id="rg_old">
+        <phrase id="fldcaption" value="RG Old" />
+      </field>
+      <field id="visitor_old">
+        <phrase id="fldcaption" value="Visitor Old" />
+      </field>
+      <field id="ceu_old">
+        <phrase id="fldcaption" value="CEU Old" />
+      </field>
+      <field id="one_to_one_old">
+        <phrase id="fldcaption" value="One to One Old" />
+      </field>
+      <field id="tyfcb_old">
+        <phrase id="fldcaption" value="TYFCB Old" />
+      </field>
+      <field id="rg_old_per_week">
+        <phrase id="fldcaption" value="RG Old per Week" />
+      </field>
+      <field id="visitor_old_per_week">
+        <phrase id="fldcaption" value="Visitor Old per Week" />
+      </field>
+      <field id="ceu_old_per_week">
+        <phrase id="fldcaption" value="CEU Old per Week" />
+      </field>
+      <field id="one_to_one_old_per_week">
+        <phrase id="fldcaption" value="One to One Old per Week" />
+      </field>
+      <field id="tyfcb_old_per_week">
+        <phrase id="fldcaption" value="TYFCB Old per Week" />
+      </field>
+      <field id="absent_old_score">
+        <phrase id="fldcaption" value="Absent Old Score" />
+      </field>
+      <field id="tyfcb_old_score">
+        <phrase id="fldcaption" value="TYFCB Old Score" />
+      </field>
+      <field id="ceu_old_score">
+        <phrase id="fldcaption" value="CEU Old Score" />
+      </field>
+      <field id="absent_old_score_max">
+        <phrase id="fldcaption" value="Absent Old Score Max" />
+      </field>
+      <field id="tyfcb_old_score_max">
+        <phrase id="fldcaption" value="TYFCB Old Score Max" />
+      </field>
+      <field id="ceu_old_score_max">
+        <phrase id="fldcaption" value="CEU Old Score Max" />
+      </field>
+      <field id="absent_new">
+        <phrase id="fldcaption" value="Absent New" />
+      </field>
+      <field id="rg_new">
+        <phrase id="fldcaption" value="RG New" />
+      </field>
+      <field id="visitor_new">
+        <phrase id="fldcaption" value="Visitor New" />
+      </field>
+      <field id="ceu_new">
+        <phrase id="fldcaption" value="CEU New" />
+      </field>
+      <field id="one_to_one_new">
+        <phrase id="fldcaption" value="One to One New" />
+      </field>
+      <field id="tyfcb_new">
+        <phrase id="fldcaption" value="TYFCB New" />
+      </field>
+      <field id="rg_new_per_week">
+        <phrase id="fldcaption" value="RG New per Week" />
+      </field>
+      <field id="visitor_new_per_week">
+        <phrase id="fldcaption" value="Visitor New per Week" />
+      </field>
+      <field id="ceu_new_per_week">
+        <phrase id="fldcaption" value="CEU New per Week" />
+      </field>
+      <field id="one_to_one_new_per_week">
+        <phrase id="fldcaption" value="One to One New per Week" />
+      </field>
+      <field id="tyfcb_new_per_week">
+        <phrase id="fldcaption" value="TYFCB New per Week" />
+      </field>
+      <field id="absent_new_score">
+        <phrase id="fldcaption" value="Absent New Score" />
+      </field>
+      <field id="rg_new_score">
+        <phrase id="fldcaption" value="RG New Score" />
+      </field>
+      <field id="tyfcb_new_score">
+        <phrase id="fldcaption" value="TYFCB New Score" />
+      </field>
+      <field id="visitor_new_score">
+        <phrase id="fldcaption" value="Visitor New Score" />
+      </field>
+      <field id="one_to_one_new_score">
+        <phrase id="fldcaption" value="One to One New Score" />
+      </field>
+      <field id="ceu_new_score">
+        <phrase id="fldcaption" value="CEU New Score" />
+      </field>
+      <field id="absent_new_score_max">
+        <phrase id="fldcaption" value="Absent New Score Max" />
+      </field>
+      <field id="rg_new_score_max">
+        <phrase id="fldcaption" value="RG New Score Max" />
+      </field>
+      <field id="visitor_new_score_max">
+        <phrase id="fldcaption" value="Visitor New Score Max" />
+      </field>
+      <field id="one_to_one_new_score_max">
+        <phrase id="fldcaption" value="One to One New Score Max" />
+      </field>
+      <field id="tyfcb_new_score_max">
+        <phrase id="fldcaption" value="TYFCB New Score Max" />
+      </field>
+      <field id="ceu_new_score_max">
+        <phrase id="fldcaption" value="CEU New Score Max" />
+      </field>
+      <field id="late_score">
+        <phrase id="fldcaption" value="Late Score" />
+      </field>
+      <field id="is_last_week">
+        <phrase id="fldcaption" value="Is Last Week" />
+      </field>
+      <field id="new__rg__needed__5">
+        <phrase id="fldcaption" value="New RG Needed 5" />
+      </field>
+      <field id="new__rg__needed__10">
+        <phrase id="fldcaption" value="New RG Needed 10" />
+      </field>
+      <field id="new__rg__needed__15">
+        <phrase id="fldcaption" value="New RG Needed 15" />
+      </field>
+      <field id="new__tyfcb__needed__5">
+        <phrase id="fldcaption" value="New TYFCB Needed 5" />
+      </field>
+      <field id="new__tyfcb__needed__10">
+        <phrase id="fldcaption" value="New TYFCB Needed 10" />
+      </field>
+      <field id="new__tyfcb__needed__15">
+        <phrase id="fldcaption" value="New TYFCB Needed 15" />
+      </field>
+      <field id="new__visitor__needed__10">
+        <phrase id="fldcaption" value="New Visitor Needed 10" />
+      </field>
+      <field id="new__visitor__needed__20">
+        <phrase id="fldcaption" value="New Visitor Needed 20" />
+      </field>
+      <field id="new__one_to_one__needed__5">
+        <phrase id="fldcaption" value="New One to One Needed 5" />
+      </field>
+      <field id="new__one_to_one__needed__10">
+        <phrase id="fldcaption" value="New One to One Needed 10" />
+      </field>
+      <field id="new__one_to_one__needed__15">
+        <phrase id="fldcaption" value="New One to One Needed 15" />
+      </field>
+      <field id="new__ceu__needed__5">
+        <phrase id="fldcaption" value="New CEU Needed 5" />
+      </field>
+      <field id="new__ceu__needed__10">
+        <phrase id="fldcaption" value="New CEU Needed 10" />
+      </field>
+      <field id="new__ceu__needed__15">
+        <phrase id="fldcaption" value="New CEU Needed 15" />
+      </field>
+      <field id="new__ceu__needed__20">
+        <phrase id="fldcaption" value="New CEU Needed 20" />
+      </field>
+      <field id="weighted__traffic_light__needed__70">
+        <phrase id="fldcaption" value="Weighted Traffic Light Needed 70" />
+      </field>
+      <field id="weighted__traffic_light__needed__80">
+        <phrase id="fldcaption" value="Weighted Traffic Light Needed 80" />
+      </field>
+      <field id="weighted__traffic_light__needed__90">
+        <phrase id="fldcaption" value="Weighted Traffic Light Needed 90" />
+      </field>
+      <field id="weighted__traffic_light__needed__100">
+        <phrase id="fldcaption" value="Weighted Traffic Light Needed 100" />
+      </field>
+      <field id="weighted__traffic_light__needed__50">
+        <phrase id="fldcaption" value="Weighted Traffic Light Needed 50" />
+      </field>
+    </table>
+    <table id="my_current_traffic_light">
+      <phrase id="tblcaption" value="Weekly Traffic Light - Beta" />
+      <field id="meeting_id" />
+      <field id="meeting" />
+      <field id="meeting_date" />
+      <field id="member_id">
+        <phrase id="fldcaption" value="Member" />
+      </field>
+      <field id="palms">
+        <phrase id="fldcaption" value="P" />
+        <phrase id="fldtagvalue1" value="P" />
+        <phrase id="fldtagcaption1" value="P" />
+        <phrase id="fldtagvalue2" value="A" />
+        <phrase id="fldtagcaption2" value="A" />
+        <phrase id="fldtagvalue3" value="L" />
+        <phrase id="fldtagcaption3" value="L" />
+        <phrase id="fldtagvalue4" value="M" />
+        <phrase id="fldtagcaption4" value="M" />
+        <phrase id="fldtagvalue5" value="S" />
+        <phrase id="fldtagcaption5" value="S" />
+      </field>
+      <field id="absent">
+        <phrase id="fldcaption" value="A" />
+      </field>
+      <field id="late">
+        <phrase id="fldcaption" value="L" />
+      </field>
+      <field id="rg_per_week">
+        <phrase id="fldcaption" value="R" />
+      </field>
+      <field id="tyfcb_per_week">
+        <phrase id="fldcaption" value="TYFCB" />
+      </field>
+      <field id="visitor_per_week">
+        <phrase id="fldcaption" value="V" />
+      </field>
+      <field id="one_to_one_per_week">
+        <phrase id="fldcaption" value="1" />
+      </field>
+      <field id="ceu_per_week">
+        <phrase id="fldcaption" value="C" />
+      </field>
+    </table>
+    <table id="network_leader">
+      <phrase id="tblcaption" value="ตารางผู้นำ" />
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter ID" />
+      </field>
+      <field id="year">
+        <phrase id="fldcaption" value="ปี" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="เดือน" />
+        <phrase id="fldtagvalue1" value="12" />
+        <phrase id="fldtagcaption1" value="December" />
+        <phrase id="fldtagvalue2" value="11" />
+        <phrase id="fldtagcaption2" value="November" />
+        <phrase id="fldtagvalue3" value="10" />
+        <phrase id="fldtagcaption3" value="October" />
+        <phrase id="fldtagvalue4" value="9" />
+        <phrase id="fldtagcaption4" value="September" />
+        <phrase id="fldtagvalue5" value="8" />
+        <phrase id="fldtagcaption5" value="August" />
+        <phrase id="fldtagvalue6" value="7" />
+        <phrase id="fldtagcaption6" value="July" />
+        <phrase id="fldtagvalue7" value="6" />
+        <phrase id="fldtagcaption7" value="June" />
+        <phrase id="fldtagvalue8" value="5" />
+        <phrase id="fldtagcaption8" value="May" />
+        <phrase id="fldtagvalue9" value="4" />
+        <phrase id="fldtagcaption9" value="April" />
+        <phrase id="fldtagvalue10" value="3" />
+        <phrase id="fldtagcaption10" value="March" />
+        <phrase id="fldtagvalue11" value="2" />
+        <phrase id="fldtagcaption11" value="Febuary" />
+        <phrase id="fldtagvalue12" value="1" />
+        <phrase id="fldtagcaption12" value="January" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="เพื่อน" />
+      </field>
+      <field id="referrals_given_outside_total">
+        <phrase id="fldcaption" value="เรฟนอก" />
+      </field>
+      <field id="revenue_given_total">
+        <phrase id="fldcaption" value="ให้ยอด" />
+      </field>
+      <field id="visitor_total">
+        <phrase id="fldcaption" value="แขก" />
+      </field>
+      <field id="referrals_given_total">
+        <phrase id="fldcaption" value="เรฟ" />
+      </field>
+      <field id="one_to_one_total">
+        <phrase id="fldcaption" value="1-2-1" />
+      </field>
+    </table>
+    <table id="power_team">
+      <phrase id="tblcaption" value="ทีม" />
+      <field id="power_team_id">
+        <phrase id="fldcaption" value="Power Team ID" />
+      </field>
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter ID" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="ชื่อทีม" />
+      </field>
+      <field id="enable">
+        <phrase id="fldcaption" value="Enable" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="1" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="0" />
+      </field>
+      <field id="created">
+        <phrase id="fldcaption" value="Created" />
+      </field>
+      <field id="updated">
+        <phrase id="fldcaption" value="Updated" />
+      </field>
+      <field id="leader_id">
+        <phrase id="fldcaption" value="หัวหน้า" />
+      </field>
+      <field id="notify_token">
+        <phrase id="fldcaption" value="Notify Token" />
+      </field>
+    </table>
+    <table id="renewal_stat">
+      <phrase id="tblcaption" value="การต่ออายุ" />
+      <field id="region_id">
+        <phrase id="fldcaption" value="Region ID" />
+      </field>
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="เพื่อน" />
+      </field>
+      <field id="membership_due_date">
+        <phrase id="fldcaption" value="ครบกำหนด" />
+      </field>
+      <field id="membership_status">
+        <phrase id="fldcaption" value="สถานะ" />
+        <phrase id="fldtagvalue1" value="Active" />
+        <phrase id="fldtagcaption1" value="Active" />
+        <phrase id="fldtagvalue2" value="Dropped" />
+        <phrase id="fldtagcaption2" value="Dropped" />
+        <phrase id="fldtagvalue3" value="Late" />
+        <phrase id="fldtagcaption3" value="Late" />
+        <phrase id="fldtagvalue4" value="Expired" />
+        <phrase id="fldtagcaption4" value="Expired" />
+        <phrase id="fldtagvalue5" value="Pending Renewal" />
+        <phrase id="fldtagcaption5" value="Pending Renewal" />
+        <phrase id="fldtagvalue6" value="Void" />
+        <phrase id="fldtagcaption6" value="Void" />
+        <phrase id="fldtagvalue7" value="Suspended" />
+        <phrase id="fldtagcaption7" value="Suspended" />
+        <phrase id="fldtagvalue8" value="Pending Member" />
+        <phrase id="fldtagcaption8" value="Pending Member" />
+      </field>
+      <field id="present">
+        <phrase id="fldcaption" value="Present" />
+      </field>
+      <field id="absent">
+        <phrase id="fldcaption" value="Absent" />
+      </field>
+      <field id="late">
+        <phrase id="fldcaption" value="Late" />
+      </field>
+      <field id="medical_leave">
+        <phrase id="fldcaption" value="Medical Leave" />
+      </field>
+      <field id="substitute">
+        <phrase id="fldcaption" value="Substitute" />
+      </field>
+      <field id="rgi">
+        <phrase id="fldcaption" value="Referral Given Inside" />
+      </field>
+      <field id="rgo">
+        <phrase id="fldcaption" value="Referral Given Outside" />
+      </field>
+      <field id="rri">
+        <phrase id="fldcaption" value="Referral Received Inside" />
+      </field>
+      <field id="rro">
+        <phrase id="fldcaption" value="Referral Received Outside" />
+      </field>
+      <field id="visitor">
+        <phrase id="fldcaption" value="Visitor" />
+      </field>
+      <field id="ceu">
+        <phrase id="fldcaption" value="CEU" />
+      </field>
+      <field id="one_to_one">
+        <phrase id="fldcaption" value="1-2-1" />
+      </field>
+      <field id="value_given">
+        <phrase id="fldcaption" value="Value Given" />
+      </field>
+      <field id="value_received">
+        <phrase id="fldcaption" value="Value Received" />
+      </field>
+      <field id="term_plus_month">
+        <phrase id="fldcaption" value="Term Plus Month" />
+      </field>
+      <field id="with_in_90_days">
+        <phrase id="fldcaption" value="ในช่วง 90 วัน" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+      </field>
+      <field id="traffic_light_color">
+        <phrase id="fldcaption" value="Traffic Light Color" />
+      </field>
+      <field id="first_meeting_date">
+        <phrase id="fldcaption" value="First Meeting Date" />
+      </field>
+      <field id="last_meeting_date">
+        <phrase id="fldcaption" value="Last Meeting Date" />
+      </field>
+      <field id="roles">
+        <phrase id="fldcaption" value="Roles" />
+      </field>
+      <field id="traffic_light_score">
+        <phrase id="fldcaption" value="Traffic Light Score" />
+      </field>
+    </table>
+    <table id="renewalreview">
+      <phrase id="tblcaption" value="Renewal Review" />
+    </table>
+    <table id="searchreplace" />
+    <table id="user_level2">
+      <phrase id="tblcaption" value="ระดับสิทธิการใช้งาน" />
+      <field id="user_level_id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="user_level_name">
+        <phrase id="fldcaption" value="Level Name" />
+      </field>
+    </table>
+    <table id="user_level_permission">
+      <phrase id="tblcaption" value="สิทธิการใช้งาน" />
+      <field id="user_level_id">
+        <phrase id="fldcaption" value="User Level ID" />
+      </field>
+      <field id="table_name">
+        <phrase id="fldcaption" value="Table Name" />
+      </field>
+      <field id="_permission">
+        <phrase id="fldcaption" value="Permission" />
+      </field>
+    </table>
+    <table id="warning">
+      <phrase id="tblcaption" value="จดหมายรัก" />
+      <field id="chapter_id">
+        <phrase id="fldcaption" value="Chapter" />
+      </field>
+      <field id="member_id">
+        <phrase id="fldcaption" value="เพื่อน" />
+      </field>
+      <field id="meeting_date">
+        <phrase id="fldcaption" value="ณ วันประชุม" />
+      </field>
+      <field id="absent">
+        <phrase id="fldcaption" value="ขาด" />
+      </field>
+      <field id="late">
+        <phrase id="fldcaption" value="สาย" />
+      </field>
+      <field id="substitute">
+        <phrase id="fldcaption" value="ส่งตัวแทน" />
+      </field>
+    </table>
+    <table id="year">
+      <phrase id="tblcaption" value="ปี" />
+      <field id="year">
+        <phrase id="fldcaption" value="Year" />
+      </field>
+      <field id="created">
+        <phrase id="fldcaption" value="Created" />
+      </field>
+      <field id="modified">
+        <phrase id="fldcaption" value="เป้ายอดขายรวมทั้งปี" />
+      </field>
+    </table>
+    <table id="chapterplan">
+      <phrase id="tblcaption" value="Chapter Plan" />
+    </table>
+  </project>
+</ew-language>
